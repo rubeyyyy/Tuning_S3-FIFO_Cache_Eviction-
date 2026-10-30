@@ -1,0 +1,13 @@
+trace,algorithm,cache_size_objects,requests,miss_ratio,raw_output
+cloudPhysicsIO.txt,fifo,1000,113872,0.8388,results/logs/fifo_1000.txt
+cloudPhysicsIO.txt,fifo,5000,113872,0.8042,results/logs/fifo_5000.txt
+cloudPhysicsIO.txt,fifo,10000,113872,0.6956,results/logs/fifo_10000.txt
+cloudPhysicsIO.txt,lru,1000,113872,0.8327,results/logs/lru_1000.txt
+cloudPhysicsIO.txt,lru,5000,113872,0.8038,results/logs/lru_5000.txt
+cloudPhysicsIO.txt,lru,10000,113872,0.6976,results/logs/lru_10000.txt
+cloudPhysicsIO.txt,sieve,1000,113872,0.8253,results/logs/sieve_1000.txt
+cloudPhysicsIO.txt,sieve,5000,113872,0.7886,results/logs/sieve_5000.txt
+cloudPhysicsIO.txt,sieve,10000,113872,0.7118,results/logs/sieve_10000.txt
+cloudPhysicsIO.txt,s3fifo,1000,113872,0.8255,results/logs/s3fifo_1000.txt
+cloudPhysicsIO.txt,s3fifo,5000,113872,0.7525,results/logs/s3fifo_5000.txt
+cloudPhysicsIO.txt,s3fifo,10000,113872,0.6636,results/logs/s3fifo_10000.txt

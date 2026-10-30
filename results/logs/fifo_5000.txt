@@ -1,0 +1,1 @@
+vendor/libCacheSim/data/cloudPhysicsIO.txt FIFO cache size     5000,           113872 req, miss ratio 0.8042, throughput 3.78 MQPS

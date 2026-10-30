@@ -1,0 +1,62 @@
+Usage: cachesim [OPTION...] trace_path trace_type eviction_algo cache_size
+example: ./cachesim /trace/path csv LRU 100MB
+
+trace can be zstd compressed
+cache_size is in byte, but also support KB/MB/GB
+supported trace_type: txt/csv/twr/vscsi/oracleGeneralBin/syn
+supported eviction_algo: LRU/LFU/FIFO/ARC/LeCaR/Cacheus/Merlin
+print-head-req: Print the first few requests when simulating start
+
+ trace reader related parameters
+
+  -n, --num-req=-1           Num of requests to process, default -1 means all
+                             requests in the trace
+  -s, --sample-ratio=1       Sample ratio, 1 means no sampling, 0.01 means
+                             sample 1% of objects
+  -t, --trace-type-params="obj-id-col=1;delimiter=,"
+                             Parameters used for csv trace, e.g.,
+                             "obj-id-col=1;delimiter=,"
+
+ cache related parameters:
+
+      --admission-params="prob=0.8"
+                             params for admission algorithm
+  -a, --admission=bloom-filter   Admission algorithm: size/bloom-filter/prob
+  -e, --eviction-params="n-seg=4"
+                             optional params for each eviction algorithm, e.g.,
+                             n-seg=4
+      --prefetch-params="block-size=65536"
+                             optional params for each prefetching algorithm,
+                             e.g., block-size=65536
+  -p, --prefetch=Mithril     Prefetching algorithm: Mithril/OBL/PG/AMP
+
+ Other options:
+      --ignore-obj-size=false   specify to ignore the object size from the
+                             trace
+      --num-thread=16        Number of threads if running when using default
+                             cache sizes
+  -o, --output=output        Output path
+
+ Other less common options:
+      --consider-obj-metadata=false
+                             Whether consider per object metadata size in the
+                             simulated cache
+      --hashpower=24         Log2 of the hash table size, default 24 (16M
+                             entries). Lower it to save memory on small traces.
+                             Note that sampling-based algorithms draw
+                             candidates from the hash table, so their miss
+                             ratios depend on this
+      --print-head-req=false Print the first few requests
+      --report-interval=3600 how often to report stat when running one cache
+      --use-ttl=false        specify to use ttl from the trace
+  -v, --verbose=1            Produce verbose output
+      --warmup-sec=0         warm up time in seconds
+
+  -?, --help                 Give this help list
+      --usage                Give a short usage message
+  -V, --version              Print program version
+
+Mandatory or optional arguments to long options are also mandatory or optional
+for any corresponding short options.
+
+Report bugs to https://groups.google.com/g/libcachesim.

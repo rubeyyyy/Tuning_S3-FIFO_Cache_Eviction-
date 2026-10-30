@@ -1,0 +1,23 @@
+[  1%] Building C object libCacheSim/utils/CMakeFiles/utils_lib.dir/logging.c.o
+[  2%] Building C object libCacheSim/dataStructure/CMakeFiles/dataStructure_lib.dir/pqueue.c.o
+[  2%] Building C object libCacheSim/utils/CMakeFiles/utils_lib.dir/mymath.c.o
+[  4%] Building C object libCacheSim/utils/CMakeFiles/utils_lib.dir/mystr.c.o
+[  5%] Building C object libCacheSim/dataStructure/CMakeFiles/dataStructure_lib.dir/splay.c.o
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/utils/mystr.c: In function ‘mybasename’:
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/utils/mystr.c:60:13: error: initialization discards ‘const’ qualifier from pointer target type [-Werror=discarded-qualifiers]
+   60 |   char *s = strrchr(path, '/');
+      |             ^~~~~~~
+cc1: all warnings being treated as errors
+gmake[3]: *** [libCacheSim/utils/CMakeFiles/utils_lib.dir/build.make:107: libCacheSim/utils/CMakeFiles/utils_lib.dir/mystr.c.o] Error 1
+gmake[2]: *** [CMakeFiles/Makefile2:718: libCacheSim/utils/CMakeFiles/utils_lib.dir/all] Error 2
+gmake[2]: *** Waiting for unfinished jobs....
+[  5%] Building C object libCacheSim/dataStructure/CMakeFiles/dataStructure_lib.dir/bloom.c.o
+[  7%] Building C object libCacheSim/dataStructure/CMakeFiles/dataStructure_lib.dir/minimalIncrementCBF.c.o
+[  7%] Building C object libCacheSim/dataStructure/CMakeFiles/dataStructure_lib.dir/histogram.c.o
+[  8%] Building C object libCacheSim/dataStructure/CMakeFiles/dataStructure_lib.dir/splay_tuple.c.o
+[ 10%] Building C object libCacheSim/dataStructure/CMakeFiles/dataStructure_lib.dir/hash/murmur3.c.o
+[ 10%] Building C object libCacheSim/dataStructure/CMakeFiles/dataStructure_lib.dir/hashtable/chainedHashtable.c.o
+[ 11%] Building C object libCacheSim/dataStructure/CMakeFiles/dataStructure_lib.dir/hashtable/chainedHashTableV2.c.o
+[ 11%] Built target dataStructure_lib
+gmake[1]: *** [CMakeFiles/Makefile2:858: libCacheSim/bin/cachesim/CMakeFiles/cachesim.dir/rule] Error 2
+gmake: *** [Makefile:312: cachesim] Error 2

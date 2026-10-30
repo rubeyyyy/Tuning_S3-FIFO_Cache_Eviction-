@@ -1,0 +1,12 @@
+9f4cc6f77e7c09929f80fc5534b638b95d257a90d6bf43c59d2232514759eb9d  .deps/packages/cmake-data_4.2.3-2ubuntu2_all.deb
+87c496f1e37b64bc0b4ad9c5fe0e75c09655f5399ed39695b876afba55becc61  .deps/packages/cmake_4.2.3-2ubuntu2_amd64.deb
+61064485b5aca20235061ba40ad96479b157d01dd665eae5ada1d6ea633082b5  .deps/packages/libgio-2.0-dev_2.88.0-1ubuntu0.1_amd64.deb
+7868fd4b24fd4b6e644a63685b6d0c282c6b636deac842d1455d71ff5c9ecd07  .deps/packages/libglib2.0-0t64_2.88.0-1ubuntu0.1_amd64.deb
+989ae4b1ab4a7dff4e1750a34fedee76fb0c9ed8332ae66dbd6054b5520d9b68  .deps/packages/libglib2.0-dev-bin_2.88.0-1ubuntu0.1_amd64.deb
+6238834dab8cccc5f7bfc4b7f534a44b54e50b1edd96ef28a30529d9f8689c35  .deps/packages/libglib2.0-dev_2.88.0-1ubuntu0.1_amd64.deb
+2b42b79a81f9407d0ae9650541dca2e416b76b6ad9f7794737bac8c6d6f56823  .deps/packages/libjsoncpp26_1.9.6-5_amd64.deb
+203dd2049aebc6e7d674f79e5f377263a1907e156469b496378047a20ecf3e54  .deps/packages/libpcre2-dev_10.46-1build1_amd64.deb
+cb935821161fdfdbd30afdbcb8ceeab736f9a4df84f02df883a41d911951e398  .deps/packages/librhash1_1.4.6-1.1_amd64.deb
+dd4d9812c035d6731229650c6860a07586961c2ac491de622032a338ba0129f0  .deps/packages/libsysprof-capture-4-dev_50.0-1_amd64.deb
+6d81369284ba3fd094f635fe6b9f8dfc71baaca36c1f758fe62244839e25ecf0  .deps/packages/libzstd-dev_1.5.7+dfsg-3_amd64.deb
+34365d611ccf1f717f90a92fbe52ed96ae1829ab9be363c68a83563322797f8f  .deps/packages/libzstd1_1.5.7+dfsg-3_amd64.deb

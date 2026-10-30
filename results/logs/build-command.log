@@ -1,0 +1,81 @@
+-- Version from /home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/version.txt: 0.3.5
+-- LOG_LEVEL is not set, use INFO as default for release build
+-- Found Zstd: /home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/.deps/root/usr/lib/x86_64-linux-gnu/libzstd.so
+-- ZSTD_INCLUDE_DIR /home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/.deps/root/usr/include, ZSTD_LIBRARIES /home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/.deps/root/usr/lib/x86_64-linux-gnu/libzstd.so
+-- Not Found Tcmalloc: Tcmalloc_LIBRARY-NOTFOUND
+-- CMAKE_CXX_FLAGS_DEBUG -g
+-- CMAKE_CXX_FLAGS_RELWITHDEBINFO -O2 -g -DNDEBUG
+-- CMAKE_CXX_FLAGS_RELEASE -O3 -DNDEBUG
+-- SUPPORT TTL OFF, USE_HUGEPAGE ON
+-- LOGLEVEL default, ENABLE_GLCACHE OFF
+-- ENABLE_LRB OFF, ENABLE_3L_CACHE OFF
+-- ENABLE_S4FIFO OFF
+-- OPT_SUPPORT_ZSTD_TRACE ON
+-- <<++=====------------------\/------------------=====++>>
+-- <<++              libCacheSim summary             ++>>
+-- <<++=====------------------/\------------------=====++>>
+-- ================== dependency related ==================
+-- glib found?     1 - LIBS=, header=/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/.deps/root/usr/include/glib-2.0;/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/.deps/root/usr/lib/x86_64-linux-gnu/glib-2.0/include;/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/.deps/root/usr/include/sysprof-6;/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/.deps/root/usr/include
+-- tcmalloc found? FALSE - LIBS=, header=
+-- ZSTD found? TRUE - LIBS=/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/.deps/root/usr/lib/x86_64-linux-gnu/libzstd.so, header=/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/.deps/root/usr/include
+-- ==================== CMake related =====================
+-- platform          = Linux 7.0.0-38-generic
+-- CPU type          = x86_64
+-- cmake source      = /home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim
+-- cmake compiler    = /usr/bin/cc
+-- CMAKE_BUILD_TYPE  = Release
+-- CFLAGS            = 
+-- dependency_libs    = m;dl;glib-2.0;/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/.deps/root/usr/lib/x86_64-linux-gnu/libzstd.so
+-- Installation path = /usr/local
+-- ========================================================
+-- ============= Status of optional features ==============
+-- ========================================================
+-- cache_sources_c = admission/bloomfilter.c;admission/prob.c;admission/size.c;admission/sizeProbabilistic.c;eviction/ARC.c;eviction/ARCv0.c;eviction/Belady.c;eviction/BeladySize.c;eviction/CAR.c;eviction/Cacheus.c;eviction/Clock.c;eviction/Clock2QPlus.c;eviction/ClockPro.c;eviction/FIFO.c;eviction/Hyperbolic.c;eviction/LeCaR.c;eviction/LeCaRv0.c;eviction/LFU.c;eviction/LFUDA.c;eviction/LIRS.c;eviction/LRU.c;eviction/LRUProb.c;eviction/LRUv0.c;eviction/MQ.c;eviction/MRU.c;eviction/nop.c;eviction/plugin_cache.c;eviction/QDLP.c;eviction/Random.c;eviction/RandomLRU.c;eviction/RandomTwo.c;eviction/S3FIFO.c;eviction/Sieve.c;eviction/Size.c;eviction/SLRU.c;eviction/SLRUv0.c;eviction/TwoQ.c;eviction/WTinyLFU.c;eviction/CR_LFU.c;eviction/SR_LRU.c;eviction/FIFO_Merge.c;eviction/FIFO_Reinsertion.c;eviction/S3FIFOv0.c;eviction/S3FIFOd.c;eviction/other/flashProb.c;eviction/other/S3LRU.c;prefetch/Mithril.c;prefetch/OBL.c;prefetch/PG.c;cache.c;cacheAlgoRegistry.c;plugin.c
+-- cache_sources_cpp = admission/adaptsize/adaptsize.cpp;admission/adaptsize/adaptsize_interface.cpp;eviction/cpp/merlin.cpp;eviction/cpp/LFU.cpp;eviction/cpp/GDSF.cpp;eviction/cpp/LRU_K.cpp;eviction/LHD/lhd.cpp;eviction/LHD/LHD_Interface.cpp
+-- Building without test
+-- Configuring done (0.0s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/build
+[  4%] Built target utils_lib
+[ 13%] Built target dataStructure_lib
+[ 23%] Built target traceReader_lib
+[ 24%] Building CXX object libCacheSim/traceAnalyzer/CMakeFiles/traceAnalyzer_lib.dir/utils/threadPool.cpp.o
+[ 71%] Built target cache_lib_c
+[ 72%] Building CXX object libCacheSim/cache/CMakeFiles/cache_lib_cpp.dir/admission/adaptsize/adaptsize.cpp.o
+[ 73%] Building CXX object libCacheSim/traceAnalyzer/CMakeFiles/traceAnalyzer_lib.dir/utils/utils.cpp.o
+[ 73%] Building CXX object libCacheSim/cache/CMakeFiles/cache_lib_cpp.dir/admission/adaptsize/adaptsize_interface.cpp.o
+[ 73%] Building CXX object libCacheSim/traceAnalyzer/CMakeFiles/traceAnalyzer_lib.dir/utils/utilsSys.cpp.o
+[ 75%] Building CXX object libCacheSim/cache/CMakeFiles/cache_lib_cpp.dir/eviction/cpp/merlin.cpp.o
+[ 76%] Building CXX object libCacheSim/traceAnalyzer/CMakeFiles/traceAnalyzer_lib.dir/accessPattern.cpp.o
+[ 76%] Building CXX object libCacheSim/cache/CMakeFiles/cache_lib_cpp.dir/eviction/cpp/LFU.cpp.o
+[ 78%] Building CXX object libCacheSim/cache/CMakeFiles/cache_lib_cpp.dir/eviction/cpp/GDSF.cpp.o
+[ 78%] Building CXX object libCacheSim/traceAnalyzer/CMakeFiles/traceAnalyzer_lib.dir/analyzer.cpp.o
+[ 79%] Building CXX object libCacheSim/cache/CMakeFiles/cache_lib_cpp.dir/eviction/cpp/LRU_K.cpp.o
+[ 79%] Building CXX object libCacheSim/cache/CMakeFiles/cache_lib_cpp.dir/eviction/LHD/lhd.cpp.o
+[ 81%] Building CXX object libCacheSim/traceAnalyzer/CMakeFiles/traceAnalyzer_lib.dir/popularity.cpp.o
+[ 82%] Building CXX object libCacheSim/cache/CMakeFiles/cache_lib_cpp.dir/eviction/LHD/LHD_Interface.cpp.o
+[ 84%] Building CXX object libCacheSim/traceAnalyzer/CMakeFiles/traceAnalyzer_lib.dir/popularityDecay.cpp.o
+[ 84%] Built target cache_lib_cpp
+[ 84%] Building CXX object libCacheSim/traceAnalyzer/CMakeFiles/traceAnalyzer_lib.dir/reqRate.cpp.o
+[ 85%] Building CXX object libCacheSim/traceAnalyzer/CMakeFiles/traceAnalyzer_lib.dir/reuse.cpp.o
+[ 86%] Building CXX object libCacheSim/traceAnalyzer/CMakeFiles/traceAnalyzer_lib.dir/size.cpp.o
+[ 88%] Building C object libCacheSim/profiler/CMakeFiles/profiler_lib.dir/profilerLRU.c.o
+[ 88%] Building C object libCacheSim/profiler/CMakeFiles/profiler_lib.dir/simulator.c.o
+[ 89%] Building C object libCacheSim/profiler/CMakeFiles/profiler_lib.dir/dist.c.o
+[ 89%] Building CXX object libCacheSim/traceAnalyzer/CMakeFiles/traceAnalyzer_lib.dir/ttl.cpp.o
+[ 89%] Built target profiler_lib
+[ 91%] Building CXX object libCacheSim/mrcProfiler/CMakeFiles/mrcProfiler_lib.dir/mrcProfiler.cpp.o
+[ 92%] Building CXX object libCacheSim/traceAnalyzer/CMakeFiles/traceAnalyzer_lib.dir/experimental/createFutureReuseCCDF.cpp.o
+[ 92%] Building CXX object libCacheSim/traceAnalyzer/CMakeFiles/traceAnalyzer_lib.dir/experimental/lifetime.cpp.o
+[ 92%] Built target mrcProfiler_lib
+[ 94%] Building CXX object libCacheSim/traceAnalyzer/CMakeFiles/traceAnalyzer_lib.dir/experimental/probAtAge.cpp.o
+[ 95%] Building CXX object libCacheSim/traceAnalyzer/CMakeFiles/traceAnalyzer_lib.dir/experimental/sizeChange.cpp.o
+[ 95%] Built target traceAnalyzer_lib
+[ 95%] Linking CXX static library liblibCacheSim.a
+[ 95%] Built target libCacheSim
+[ 97%] Building C object libCacheSim/bin/cachesim/CMakeFiles/cachesim.dir/main.c.o
+[ 97%] Building C object libCacheSim/bin/cachesim/CMakeFiles/cachesim.dir/cli_parser.c.o
+[ 98%] Building C object libCacheSim/bin/cachesim/CMakeFiles/cachesim.dir/sim.c.o
+[ 98%] Building C object libCacheSim/bin/cachesim/CMakeFiles/cachesim.dir/__/cli_reader_utils.c.o
+[100%] Linking CXX executable ../../../bin/cachesim
+[100%] Built target cachesim

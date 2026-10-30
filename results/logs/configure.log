@@ -1,0 +1,38 @@
+-- Version from /home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/version.txt: 0.3.5
+-- LOG_LEVEL is not set, use INFO as default for release build
+-- Found Zstd: /home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/.deps/root/usr/lib/x86_64-linux-gnu/libzstd.so
+-- ZSTD_INCLUDE_DIR /home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/.deps/root/usr/include, ZSTD_LIBRARIES /home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/.deps/root/usr/lib/x86_64-linux-gnu/libzstd.so
+-- Not Found Tcmalloc: Tcmalloc_LIBRARY-NOTFOUND
+-- CMAKE_CXX_FLAGS_DEBUG -g
+-- CMAKE_CXX_FLAGS_RELWITHDEBINFO -O2 -g -DNDEBUG
+-- CMAKE_CXX_FLAGS_RELEASE -O3 -DNDEBUG
+-- SUPPORT TTL OFF, USE_HUGEPAGE ON
+-- LOGLEVEL default, ENABLE_GLCACHE OFF
+-- ENABLE_LRB OFF, ENABLE_3L_CACHE OFF
+-- ENABLE_S4FIFO OFF
+-- OPT_SUPPORT_ZSTD_TRACE ON
+-- <<++=====------------------\/------------------=====++>>
+-- <<++              libCacheSim summary             ++>>
+-- <<++=====------------------/\------------------=====++>>
+-- ================== dependency related ==================
+-- glib found?     1 - LIBS=, header=/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/.deps/root/usr/include/glib-2.0;/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/.deps/root/usr/lib/x86_64-linux-gnu/glib-2.0/include;/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/.deps/root/usr/include/sysprof-6;/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/.deps/root/usr/include
+-- tcmalloc found? FALSE - LIBS=, header=
+-- ZSTD found? TRUE - LIBS=/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/.deps/root/usr/lib/x86_64-linux-gnu/libzstd.so, header=/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/.deps/root/usr/include
+-- ==================== CMake related =====================
+-- platform          = Linux 7.0.0-38-generic
+-- CPU type          = x86_64
+-- cmake source      = /home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim
+-- cmake compiler    = /usr/bin/cc
+-- CMAKE_BUILD_TYPE  = Release
+-- CFLAGS            = 
+-- dependency_libs    = m;dl;glib-2.0;/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/.deps/root/usr/lib/x86_64-linux-gnu/libzstd.so
+-- Installation path = /usr/local
+-- ========================================================
+-- ============= Status of optional features ==============
+-- ========================================================
+-- cache_sources_c = admission/bloomfilter.c;admission/prob.c;admission/size.c;admission/sizeProbabilistic.c;eviction/ARC.c;eviction/ARCv0.c;eviction/Belady.c;eviction/BeladySize.c;eviction/CAR.c;eviction/Cacheus.c;eviction/Clock.c;eviction/Clock2QPlus.c;eviction/ClockPro.c;eviction/FIFO.c;eviction/Hyperbolic.c;eviction/LeCaR.c;eviction/LeCaRv0.c;eviction/LFU.c;eviction/LFUDA.c;eviction/LIRS.c;eviction/LRU.c;eviction/LRUProb.c;eviction/LRUv0.c;eviction/MQ.c;eviction/MRU.c;eviction/nop.c;eviction/plugin_cache.c;eviction/QDLP.c;eviction/Random.c;eviction/RandomLRU.c;eviction/RandomTwo.c;eviction/S3FIFO.c;eviction/Sieve.c;eviction/Size.c;eviction/SLRU.c;eviction/SLRUv0.c;eviction/TwoQ.c;eviction/WTinyLFU.c;eviction/CR_LFU.c;eviction/SR_LRU.c;eviction/FIFO_Merge.c;eviction/FIFO_Reinsertion.c;eviction/S3FIFOv0.c;eviction/S3FIFOd.c;eviction/other/flashProb.c;eviction/other/S3LRU.c;prefetch/Mithril.c;prefetch/OBL.c;prefetch/PG.c;cache.c;cacheAlgoRegistry.c;plugin.c
+-- cache_sources_cpp = admission/adaptsize/adaptsize.cpp;admission/adaptsize/adaptsize_interface.cpp;eviction/cpp/merlin.cpp;eviction/cpp/LFU.cpp;eviction/cpp/GDSF.cpp;eviction/cpp/LRU_K.cpp;eviction/LHD/lhd.cpp;eviction/LHD/LHD_Interface.cpp
+-- Building without test
+-- Configuring done (0.0s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/build

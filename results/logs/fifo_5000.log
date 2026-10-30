@@ -1,0 +1,2 @@
+[32m[INFO]  10-29-2026 19:17:39 cli_parser.c:640  (tid=126128975663680): trace path: vendor/libCacheSim/data/cloudPhysicsIO.txt, trace_type PLAIN_TXT_TRACE, ofilepath results/logs/fifo_5000.txt, 1 threads, warmup -1 sec, total 1 algo x 1 size = 1 caches, fifo, ignore object size
+[0mvendor/libCacheSim/data/cloudPhysicsIO.txt FIFO cache size     5000,           113872 req, miss ratio 0.8042, throughput 3.78 MQPS

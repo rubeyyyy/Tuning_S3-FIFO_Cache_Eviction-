@@ -1,0 +1,43 @@
+[  4%] Built target utils_lib
+[ 13%] Built target dataStructure_lib
+[ 23%] Built target traceReader_lib
+[ 24%] Building CXX object libCacheSim/traceAnalyzer/CMakeFiles/traceAnalyzer_lib.dir/utils/threadPool.cpp.o
+[ 71%] Built target cache_lib_c
+[ 72%] Building CXX object libCacheSim/cache/CMakeFiles/cache_lib_cpp.dir/admission/adaptsize/adaptsize.cpp.o
+[ 73%] Building CXX object libCacheSim/traceAnalyzer/CMakeFiles/traceAnalyzer_lib.dir/utils/utils.cpp.o
+[ 73%] Building CXX object libCacheSim/cache/CMakeFiles/cache_lib_cpp.dir/admission/adaptsize/adaptsize_interface.cpp.o
+[ 73%] Building CXX object libCacheSim/traceAnalyzer/CMakeFiles/traceAnalyzer_lib.dir/utils/utilsSys.cpp.o
+[ 75%] Building CXX object libCacheSim/cache/CMakeFiles/cache_lib_cpp.dir/eviction/cpp/merlin.cpp.o
+[ 76%] Building CXX object libCacheSim/traceAnalyzer/CMakeFiles/traceAnalyzer_lib.dir/accessPattern.cpp.o
+[ 76%] Building CXX object libCacheSim/cache/CMakeFiles/cache_lib_cpp.dir/eviction/cpp/LFU.cpp.o
+[ 78%] Building CXX object libCacheSim/cache/CMakeFiles/cache_lib_cpp.dir/eviction/cpp/GDSF.cpp.o
+[ 78%] Building CXX object libCacheSim/traceAnalyzer/CMakeFiles/traceAnalyzer_lib.dir/analyzer.cpp.o
+[ 79%] Building CXX object libCacheSim/cache/CMakeFiles/cache_lib_cpp.dir/eviction/cpp/LRU_K.cpp.o
+[ 79%] Building CXX object libCacheSim/cache/CMakeFiles/cache_lib_cpp.dir/eviction/LHD/lhd.cpp.o
+[ 81%] Building CXX object libCacheSim/traceAnalyzer/CMakeFiles/traceAnalyzer_lib.dir/popularity.cpp.o
+[ 82%] Building CXX object libCacheSim/cache/CMakeFiles/cache_lib_cpp.dir/eviction/LHD/LHD_Interface.cpp.o
+[ 84%] Building CXX object libCacheSim/traceAnalyzer/CMakeFiles/traceAnalyzer_lib.dir/popularityDecay.cpp.o
+[ 84%] Built target cache_lib_cpp
+[ 84%] Building CXX object libCacheSim/traceAnalyzer/CMakeFiles/traceAnalyzer_lib.dir/reqRate.cpp.o
+[ 85%] Building CXX object libCacheSim/traceAnalyzer/CMakeFiles/traceAnalyzer_lib.dir/reuse.cpp.o
+[ 86%] Building CXX object libCacheSim/traceAnalyzer/CMakeFiles/traceAnalyzer_lib.dir/size.cpp.o
+[ 88%] Building C object libCacheSim/profiler/CMakeFiles/profiler_lib.dir/profilerLRU.c.o
+[ 88%] Building C object libCacheSim/profiler/CMakeFiles/profiler_lib.dir/simulator.c.o
+[ 89%] Building C object libCacheSim/profiler/CMakeFiles/profiler_lib.dir/dist.c.o
+[ 89%] Building CXX object libCacheSim/traceAnalyzer/CMakeFiles/traceAnalyzer_lib.dir/ttl.cpp.o
+[ 89%] Built target profiler_lib
+[ 91%] Building CXX object libCacheSim/mrcProfiler/CMakeFiles/mrcProfiler_lib.dir/mrcProfiler.cpp.o
+[ 92%] Building CXX object libCacheSim/traceAnalyzer/CMakeFiles/traceAnalyzer_lib.dir/experimental/createFutureReuseCCDF.cpp.o
+[ 92%] Building CXX object libCacheSim/traceAnalyzer/CMakeFiles/traceAnalyzer_lib.dir/experimental/lifetime.cpp.o
+[ 92%] Built target mrcProfiler_lib
+[ 94%] Building CXX object libCacheSim/traceAnalyzer/CMakeFiles/traceAnalyzer_lib.dir/experimental/probAtAge.cpp.o
+[ 95%] Building CXX object libCacheSim/traceAnalyzer/CMakeFiles/traceAnalyzer_lib.dir/experimental/sizeChange.cpp.o
+[ 95%] Built target traceAnalyzer_lib
+[ 95%] Linking CXX static library liblibCacheSim.a
+[ 95%] Built target libCacheSim
+[ 97%] Building C object libCacheSim/bin/cachesim/CMakeFiles/cachesim.dir/main.c.o
+[ 97%] Building C object libCacheSim/bin/cachesim/CMakeFiles/cachesim.dir/cli_parser.c.o
+[ 98%] Building C object libCacheSim/bin/cachesim/CMakeFiles/cachesim.dir/sim.c.o
+[ 98%] Building C object libCacheSim/bin/cachesim/CMakeFiles/cachesim.dir/__/cli_reader_utils.c.o
+[100%] Linking CXX executable ../../../bin/cachesim
+[100%] Built target cachesim

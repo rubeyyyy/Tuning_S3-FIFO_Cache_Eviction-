@@ -1,0 +1,12 @@
+cmake-data=4.2.3-2ubuntu2
+cmake=4.2.3-2ubuntu2
+libgio-2.0-dev=2.88.0-1ubuntu0.1
+libglib2.0-0t64=2.88.0-1ubuntu0.1
+libglib2.0-dev-bin=2.88.0-1ubuntu0.1
+libglib2.0-dev=2.88.0-1ubuntu0.1
+libjsoncpp26=1.9.6-5
+libpcre2-dev=10.46-1build1
+librhash1=1.4.6-1.1
+libsysprof-capture-4-dev=50.0-1
+libzstd-dev=1.5.7+dfsg-3
+libzstd1=1.5.7+dfsg-3

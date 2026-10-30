@@ -1,0 +1,1 @@
+vendor/libCacheSim/data/cloudPhysicsIO.txt S3FIFO-0.1000-2 cache size     1000,           113872 req, miss ratio 0.8255, throughput 2.61 MQPS

@@ -1,0 +1,1 @@
+vendor/libCacheSim/data/cloudPhysicsIO.txt LRU cache size     5000,           113872 req, miss ratio 0.8038, throughput 3.76 MQPS

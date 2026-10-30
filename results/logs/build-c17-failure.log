@@ -1,0 +1,1093 @@
+[  1%] Building C object libCacheSim/utils/CMakeFiles/utils_lib.dir/logging.c.o
+[  2%] Building C object libCacheSim/dataStructure/CMakeFiles/dataStructure_lib.dir/pqueue.c.o
+[  2%] Building C object libCacheSim/utils/CMakeFiles/utils_lib.dir/mymath.c.o
+[  4%] Building C object libCacheSim/utils/CMakeFiles/utils_lib.dir/mystr.c.o
+[  5%] Building C object libCacheSim/dataStructure/CMakeFiles/dataStructure_lib.dir/splay.c.o
+[  7%] Building C object libCacheSim/utils/CMakeFiles/utils_lib.dir/mysys.c.o
+[  7%] Building C object libCacheSim/dataStructure/CMakeFiles/dataStructure_lib.dir/bloom.c.o
+[  7%] Built target utils_lib
+[  8%] Building CXX object libCacheSim/traceAnalyzer/CMakeFiles/traceAnalyzer_lib.dir/utils/threadPool.cpp.o
+[ 10%] Building C object libCacheSim/dataStructure/CMakeFiles/dataStructure_lib.dir/minimalIncrementCBF.c.o
+[ 10%] Building C object libCacheSim/dataStructure/CMakeFiles/dataStructure_lib.dir/histogram.c.o
+[ 11%] Building C object libCacheSim/dataStructure/CMakeFiles/dataStructure_lib.dir/splay_tuple.c.o
+[ 13%] Building C object libCacheSim/dataStructure/CMakeFiles/dataStructure_lib.dir/hash/murmur3.c.o
+[ 14%] Building CXX object libCacheSim/traceAnalyzer/CMakeFiles/traceAnalyzer_lib.dir/utils/utils.cpp.o
+[ 14%] Building C object libCacheSim/dataStructure/CMakeFiles/dataStructure_lib.dir/hashtable/chainedHashtable.c.o
+[ 15%] Building C object libCacheSim/dataStructure/CMakeFiles/dataStructure_lib.dir/hashtable/chainedHashTableV2.c.o
+[ 15%] Building CXX object libCacheSim/traceAnalyzer/CMakeFiles/traceAnalyzer_lib.dir/utils/utilsSys.cpp.o
+[ 15%] Built target dataStructure_lib
+[ 17%] Building C object libCacheSim/traceReader/CMakeFiles/traceReader_lib.dir/generalReader/binary.c.o
+[ 18%] Building CXX object libCacheSim/traceAnalyzer/CMakeFiles/traceAnalyzer_lib.dir/accessPattern.cpp.o
+[ 18%] Building C object libCacheSim/traceReader/CMakeFiles/traceReader_lib.dir/generalReader/csv.c.o
+[ 20%] Building C object libCacheSim/traceReader/CMakeFiles/traceReader_lib.dir/generalReader/synthetic.c.o
+[ 21%] Building C object libCacheSim/traceReader/CMakeFiles/traceReader_lib.dir/generalReader/txt.c.o
+[ 21%] Building C object libCacheSim/traceReader/CMakeFiles/traceReader_lib.dir/generalReader/libcsv.c.o
+[ 23%] Building C object libCacheSim/traceReader/CMakeFiles/traceReader_lib.dir/customizedReader/lcs.c.o
+[ 23%] Building CXX object libCacheSim/traceAnalyzer/CMakeFiles/traceAnalyzer_lib.dir/analyzer.cpp.o
+[ 24%] Building C object libCacheSim/traceReader/CMakeFiles/traceReader_lib.dir/reader.c.o
+[ 24%] Building C object libCacheSim/traceReader/CMakeFiles/traceReader_lib.dir/readerRequest.c.o
+[ 26%] Building C object libCacheSim/traceReader/CMakeFiles/traceReader_lib.dir/sampling/spatial.c.o
+[ 26%] Building C object libCacheSim/traceReader/CMakeFiles/traceReader_lib.dir/sampling/temporal.c.o
+[ 27%] Building C object libCacheSim/traceReader/CMakeFiles/traceReader_lib.dir/generalReader/zstdReader.c.o
+[ 27%] Built target traceReader_lib
+[ 28%] Building CXX object libCacheSim/traceAnalyzer/CMakeFiles/traceAnalyzer_lib.dir/popularity.cpp.o
+[ 30%] Building CXX object libCacheSim/traceAnalyzer/CMakeFiles/traceAnalyzer_lib.dir/popularityDecay.cpp.o
+[ 30%] Building CXX object libCacheSim/traceAnalyzer/CMakeFiles/traceAnalyzer_lib.dir/reqRate.cpp.o
+[ 31%] Building CXX object libCacheSim/traceAnalyzer/CMakeFiles/traceAnalyzer_lib.dir/reuse.cpp.o
+[ 33%] Building CXX object libCacheSim/traceAnalyzer/CMakeFiles/traceAnalyzer_lib.dir/size.cpp.o
+[ 33%] Building CXX object libCacheSim/traceAnalyzer/CMakeFiles/traceAnalyzer_lib.dir/ttl.cpp.o
+[ 34%] Building CXX object libCacheSim/traceAnalyzer/CMakeFiles/traceAnalyzer_lib.dir/experimental/createFutureReuseCCDF.cpp.o
+In file included from /home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../struct.h:5,
+                 from /home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/createFutureReuseCCDF.hpp:11,
+                 from /home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/createFutureReuseCCDF.cpp:1:
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:327:15: error: ‘uint32_t’ does not name a type
+  327 | using SizeT = uint32_t;
+      |               ^~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:56:1: note: ‘uint32_t’ is defined in header ‘<cstdint>’; this is probably fixable by adding ‘#include <cstdint>’
+   55 | #include <utility>
+  +++ |+#include <cstdint>
+   56 | #if __cplusplus >= 201703L
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h: In function ‘size_t robin_hood::hash_bytes(const void*, size_t)’:
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:727:20: error: ‘uint64_t’ does not name a type
+  727 |   static constexpr uint64_t m = UINT64_C(0xc6a4a7935bd1e995);
+      |                    ^~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:727:20: note: ‘uint64_t’ is defined in header ‘<cstdint>’; this is probably fixable by adding ‘#include <cstdint>’
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:728:20: error: ‘uint64_t’ does not name a type
+  728 |   static constexpr uint64_t seed = UINT64_C(0xe17a1465);
+      |                    ^~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:728:20: note: ‘uint64_t’ is defined in header ‘<cstdint>’; this is probably fixable by adding ‘#include <cstdint>’
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:731:42: error: ‘uint64_t’ does not name a type
+  731 |   auto const* const data64 = static_cast<uint64_t const*>(ptr);
+      |                                          ^~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:731:42: note: ‘uint64_t’ is defined in header ‘<cstdint>’; this is probably fixable by adding ‘#include <cstdint>’
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:731:51: error: expected ‘>’ before ‘const’
+  731 |   auto const* const data64 = static_cast<uint64_t const*>(ptr);
+      |                                                   ^~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:732:3: error: ‘uint64_t’ was not declared in this scope
+  732 |   uint64_t h = seed ^ (len * m);
+      |   ^~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:732:3: note: ‘uint64_t’ is defined in header ‘<cstdint>’; this is probably fixable by adding ‘#include <cstdint>’
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:738:10: error: ‘m’ was not declared in this scope
+  738 |     k *= m;
+      |          ^
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:742:5: error: ‘h’ was not declared in this scope
+  742 |     h ^= k;
+      |     ^
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:746:46: error: ‘uint8_t’ does not name a type
+  746 |   auto const* const data8 = reinterpret_cast<uint8_t const*>(data64 + n_blocks);
+      |                                              ^~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:746:46: note: ‘uint8_t’ is defined in header ‘<cstdint>’; this is probably fixable by adding ‘#include <cstdint>’
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:746:54: error: expected ‘>’ before ‘const’
+  746 |   auto const* const data8 = reinterpret_cast<uint8_t const*>(data64 + n_blocks);
+      |                                                      ^~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:749:7: error: ‘h’ was not declared in this scope
+  749 |       h ^= static_cast<uint64_t>(data8[6]) << 48U;
+      |       ^
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:749:24: error: ‘uint64_t’ does not name a type
+  749 |       h ^= static_cast<uint64_t>(data8[6]) << 48U;
+      |                        ^~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:749:24: note: ‘uint64_t’ is defined in header ‘<cstdint>’; this is probably fixable by adding ‘#include <cstdint>’
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:752:24: error: ‘uint64_t’ does not name a type
+  752 |       h ^= static_cast<uint64_t>(data8[5]) << 40U;
+      |                        ^~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:752:24: note: ‘uint64_t’ is defined in header ‘<cstdint>’; this is probably fixable by adding ‘#include <cstdint>’
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:755:24: error: ‘uint64_t’ does not name a type
+  755 |       h ^= static_cast<uint64_t>(data8[4]) << 32U;
+      |                        ^~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:755:24: note: ‘uint64_t’ is defined in header ‘<cstdint>’; this is probably fixable by adding ‘#include <cstdint>’
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:758:24: error: ‘uint64_t’ does not name a type
+  758 |       h ^= static_cast<uint64_t>(data8[3]) << 24U;
+      |                        ^~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:758:24: note: ‘uint64_t’ is defined in header ‘<cstdint>’; this is probably fixable by adding ‘#include <cstdint>’
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:761:24: error: ‘uint64_t’ does not name a type
+  761 |       h ^= static_cast<uint64_t>(data8[2]) << 16U;
+      |                        ^~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:761:24: note: ‘uint64_t’ is defined in header ‘<cstdint>’; this is probably fixable by adding ‘#include <cstdint>’
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:764:24: error: ‘uint64_t’ does not name a type
+  764 |       h ^= static_cast<uint64_t>(data8[1]) << 8U;
+      |                        ^~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:764:24: note: ‘uint64_t’ is defined in header ‘<cstdint>’; this is probably fixable by adding ‘#include <cstdint>’
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:767:24: error: ‘uint64_t’ does not name a type
+  767 |       h ^= static_cast<uint64_t>(data8[0]);
+      |                        ^~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:767:24: note: ‘uint64_t’ is defined in header ‘<cstdint>’; this is probably fixable by adding ‘#include <cstdint>’
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:768:12: error: ‘m’ was not declared in this scope
+  768 |       h *= m;
+      |            ^
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:774:3: error: ‘h’ was not declared in this scope
+  774 |   h ^= h >> r;
+      |   ^
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h: At global scope:
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:781:24: error: ‘uint64_t’ was not declared in this scope
+  781 | inline size_t hash_int(uint64_t x) noexcept {
+      |                        ^~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:781:24: note: ‘uint64_t’ is defined in header ‘<cstdint>’; this is probably fixable by adding ‘#include <cstdint>’
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h: In member function ‘size_t robin_hood::hash<T, Enable>::operator()(const T&) const’:
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:802:41: error: ‘SizeT’ in namespace ‘robin_hood::detail’ does not name a type [-Wtemplate-body]
+  802 |     return hash_int(static_cast<detail::SizeT>(result));
+      |                                         ^~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:802:55: error: ‘robin_hood::hash_int’ cannot be used as a function [-Wtemplate-body]
+  802 |     return hash_int(static_cast<detail::SizeT>(result));
+      |                                                       ^
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h: In member function ‘size_t robin_hood::hash<T*>::operator()(T*) const’:
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:825:46: error: ‘SizeT’ in namespace ‘robin_hood::detail’ does not name a type [-Wtemplate-body]
+  825 |     return hash_int(reinterpret_cast<detail::SizeT>(ptr));
+      |                                              ^~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:825:57: error: ‘robin_hood::hash_int’ cannot be used as a function [-Wtemplate-body]
+  825 |     return hash_int(reinterpret_cast<detail::SizeT>(ptr));
+      |                                                         ^
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h: In member function ‘size_t robin_hood::hash<std::unique_ptr<_Tp> >::operator()(const std::unique_ptr<_Tp>&) const’:
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:832:46: error: ‘SizeT’ in namespace ‘robin_hood::detail’ does not name a type [-Wtemplate-body]
+  832 |     return hash_int(reinterpret_cast<detail::SizeT>(ptr.get()));
+      |                                              ^~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:832:63: error: ‘robin_hood::hash_int’ cannot be used as a function [-Wtemplate-body]
+  832 |     return hash_int(reinterpret_cast<detail::SizeT>(ptr.get()));
+      |                                                               ^
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h: In member function ‘size_t robin_hood::hash<std::shared_ptr<_Tp> >::operator()(const std::shared_ptr<_Tp>&) const’:
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:839:46: error: ‘SizeT’ in namespace ‘robin_hood::detail’ does not name a type [-Wtemplate-body]
+  839 |     return hash_int(reinterpret_cast<detail::SizeT>(ptr.get()));
+      |                                              ^~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:839:63: error: ‘robin_hood::hash_int’ cannot be used as a function [-Wtemplate-body]
+  839 |     return hash_int(reinterpret_cast<detail::SizeT>(ptr.get()));
+      |                                                               ^
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h: In member function ‘size_t robin_hood::hash<bool>::operator()(const bool&) const’:
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:855:35: error: ‘uint64_t’ does not name a type
+  855 |       return hash_int(static_cast<uint64_t>(obj));   \
+      |                                   ^~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:864:1: note: in expansion of macro ‘ROBIN_HOOD_HASH_INT’
+  864 | ROBIN_HOOD_HASH_INT(bool);
+      | ^~~~~~~~~~~~~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:855:35: note: ‘uint64_t’ is defined in header ‘<cstdint>’; this is probably fixable by adding ‘#include <cstdint>’
+  855 |       return hash_int(static_cast<uint64_t>(obj));   \
+      |                                   ^~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:864:1: note: in expansion of macro ‘ROBIN_HOOD_HASH_INT’
+  864 | ROBIN_HOOD_HASH_INT(bool);
+      | ^~~~~~~~~~~~~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:855:49: error: ‘robin_hood::hash_int’ cannot be used as a function
+  855 |       return hash_int(static_cast<uint64_t>(obj));   \
+      |                                                 ^
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:864:1: note: in expansion of macro ‘ROBIN_HOOD_HASH_INT’
+  864 | ROBIN_HOOD_HASH_INT(bool);
+      | ^~~~~~~~~~~~~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h: In member function ‘size_t robin_hood::hash<char>::operator()(const char&) const’:
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:855:35: error: ‘uint64_t’ does not name a type
+  855 |       return hash_int(static_cast<uint64_t>(obj));   \
+      |                                   ^~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:865:1: note: in expansion of macro ‘ROBIN_HOOD_HASH_INT’
+  865 | ROBIN_HOOD_HASH_INT(char);
+      | ^~~~~~~~~~~~~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:855:35: note: ‘uint64_t’ is defined in header ‘<cstdint>’; this is probably fixable by adding ‘#include <cstdint>’
+  855 |       return hash_int(static_cast<uint64_t>(obj));   \
+      |                                   ^~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:865:1: note: in expansion of macro ‘ROBIN_HOOD_HASH_INT’
+  865 | ROBIN_HOOD_HASH_INT(char);
+      | ^~~~~~~~~~~~~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:855:49: error: ‘robin_hood::hash_int’ cannot be used as a function
+  855 |       return hash_int(static_cast<uint64_t>(obj));   \
+      |                                                 ^
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:865:1: note: in expansion of macro ‘ROBIN_HOOD_HASH_INT’
+  865 | ROBIN_HOOD_HASH_INT(char);
+      | ^~~~~~~~~~~~~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h: In member function ‘size_t robin_hood::hash<signed char>::operator()(const signed char&) const’:
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:855:35: error: ‘uint64_t’ does not name a type
+  855 |       return hash_int(static_cast<uint64_t>(obj));   \
+      |                                   ^~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:866:1: note: in expansion of macro ‘ROBIN_HOOD_HASH_INT’
+  866 | ROBIN_HOOD_HASH_INT(signed char);
+      | ^~~~~~~~~~~~~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:855:35: note: ‘uint64_t’ is defined in header ‘<cstdint>’; this is probably fixable by adding ‘#include <cstdint>’
+  855 |       return hash_int(static_cast<uint64_t>(obj));   \
+      |                                   ^~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:866:1: note: in expansion of macro ‘ROBIN_HOOD_HASH_INT’
+  866 | ROBIN_HOOD_HASH_INT(signed char);
+      | ^~~~~~~~~~~~~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:855:49: error: ‘robin_hood::hash_int’ cannot be used as a function
+  855 |       return hash_int(static_cast<uint64_t>(obj));   \
+      |                                                 ^
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:866:1: note: in expansion of macro ‘ROBIN_HOOD_HASH_INT’
+  866 | ROBIN_HOOD_HASH_INT(signed char);
+      | ^~~~~~~~~~~~~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h: In member function ‘size_t robin_hood::hash<unsigned char>::operator()(const unsigned char&) const’:
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:855:35: error: ‘uint64_t’ does not name a type
+  855 |       return hash_int(static_cast<uint64_t>(obj));   \
+      |                                   ^~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:867:1: note: in expansion of macro ‘ROBIN_HOOD_HASH_INT’
+  867 | ROBIN_HOOD_HASH_INT(unsigned char);
+      | ^~~~~~~~~~~~~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:855:35: note: ‘uint64_t’ is defined in header ‘<cstdint>’; this is probably fixable by adding ‘#include <cstdint>’
+  855 |       return hash_int(static_cast<uint64_t>(obj));   \
+      |                                   ^~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:867:1: note: in expansion of macro ‘ROBIN_HOOD_HASH_INT’
+  867 | ROBIN_HOOD_HASH_INT(unsigned char);
+      | ^~~~~~~~~~~~~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:855:49: error: ‘robin_hood::hash_int’ cannot be used as a function
+  855 |       return hash_int(static_cast<uint64_t>(obj));   \
+      |                                                 ^
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:867:1: note: in expansion of macro ‘ROBIN_HOOD_HASH_INT’
+  867 | ROBIN_HOOD_HASH_INT(unsigned char);
+      | ^~~~~~~~~~~~~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h: In member function ‘size_t robin_hood::hash<char16_t>::operator()(const char16_t&) const’:
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:855:35: error: ‘uint64_t’ does not name a type
+  855 |       return hash_int(static_cast<uint64_t>(obj));   \
+      |                                   ^~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:868:1: note: in expansion of macro ‘ROBIN_HOOD_HASH_INT’
+  868 | ROBIN_HOOD_HASH_INT(char16_t);
+      | ^~~~~~~~~~~~~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:855:35: note: ‘uint64_t’ is defined in header ‘<cstdint>’; this is probably fixable by adding ‘#include <cstdint>’
+  855 |       return hash_int(static_cast<uint64_t>(obj));   \
+      |                                   ^~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:868:1: note: in expansion of macro ‘ROBIN_HOOD_HASH_INT’
+  868 | ROBIN_HOOD_HASH_INT(char16_t);
+      | ^~~~~~~~~~~~~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:855:49: error: ‘robin_hood::hash_int’ cannot be used as a function
+  855 |       return hash_int(static_cast<uint64_t>(obj));   \
+      |                                                 ^
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:868:1: note: in expansion of macro ‘ROBIN_HOOD_HASH_INT’
+  868 | ROBIN_HOOD_HASH_INT(char16_t);
+      | ^~~~~~~~~~~~~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h: In member function ‘size_t robin_hood::hash<char32_t>::operator()(const char32_t&) const’:
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:855:35: error: ‘uint64_t’ does not name a type
+  855 |       return hash_int(static_cast<uint64_t>(obj));   \
+      |                                   ^~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:869:1: note: in expansion of macro ‘ROBIN_HOOD_HASH_INT’
+  869 | ROBIN_HOOD_HASH_INT(char32_t);
+      | ^~~~~~~~~~~~~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:855:35: note: ‘uint64_t’ is defined in header ‘<cstdint>’; this is probably fixable by adding ‘#include <cstdint>’
+  855 |       return hash_int(static_cast<uint64_t>(obj));   \
+      |                                   ^~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:869:1: note: in expansion of macro ‘ROBIN_HOOD_HASH_INT’
+  869 | ROBIN_HOOD_HASH_INT(char32_t);
+      | ^~~~~~~~~~~~~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:855:49: error: ‘robin_hood::hash_int’ cannot be used as a function
+  855 |       return hash_int(static_cast<uint64_t>(obj));   \
+      |                                                 ^
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:869:1: note: in expansion of macro ‘ROBIN_HOOD_HASH_INT’
+  869 | ROBIN_HOOD_HASH_INT(char32_t);
+      | ^~~~~~~~~~~~~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h: In member function ‘size_t robin_hood::hash<wchar_t>::operator()(const wchar_t&) const’:
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:855:35: error: ‘uint64_t’ does not name a type
+  855 |       return hash_int(static_cast<uint64_t>(obj));   \
+      |                                   ^~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:871:1: note: in expansion of macro ‘ROBIN_HOOD_HASH_INT’
+  871 | ROBIN_HOOD_HASH_INT(wchar_t);
+      | ^~~~~~~~~~~~~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:855:35: note: ‘uint64_t’ is defined in header ‘<cstdint>’; this is probably fixable by adding ‘#include <cstdint>’
+  855 |       return hash_int(static_cast<uint64_t>(obj));   \
+      |                                   ^~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:871:1: note: in expansion of macro ‘ROBIN_HOOD_HASH_INT’
+  871 | ROBIN_HOOD_HASH_INT(wchar_t);
+      | ^~~~~~~~~~~~~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:855:49: error: ‘robin_hood::hash_int’ cannot be used as a function
+  855 |       return hash_int(static_cast<uint64_t>(obj));   \
+      |                                                 ^
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:871:1: note: in expansion of macro ‘ROBIN_HOOD_HASH_INT’
+  871 | ROBIN_HOOD_HASH_INT(wchar_t);
+      | ^~~~~~~~~~~~~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h: In member function ‘size_t robin_hood::hash<short int>::operator()(const short int&) const’:
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:855:35: error: ‘uint64_t’ does not name a type
+  855 |       return hash_int(static_cast<uint64_t>(obj));   \
+      |                                   ^~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:873:1: note: in expansion of macro ‘ROBIN_HOOD_HASH_INT’
+  873 | ROBIN_HOOD_HASH_INT(short);
+      | ^~~~~~~~~~~~~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:855:35: note: ‘uint64_t’ is defined in header ‘<cstdint>’; this is probably fixable by adding ‘#include <cstdint>’
+  855 |       return hash_int(static_cast<uint64_t>(obj));   \
+      |                                   ^~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:873:1: note: in expansion of macro ‘ROBIN_HOOD_HASH_INT’
+  873 | ROBIN_HOOD_HASH_INT(short);
+      | ^~~~~~~~~~~~~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:855:49: error: ‘robin_hood::hash_int’ cannot be used as a function
+  855 |       return hash_int(static_cast<uint64_t>(obj));   \
+      |                                                 ^
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:873:1: note: in expansion of macro ‘ROBIN_HOOD_HASH_INT’
+  873 | ROBIN_HOOD_HASH_INT(short);
+      | ^~~~~~~~~~~~~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h: In member function ‘size_t robin_hood::hash<short unsigned int>::operator()(const short unsigned int&) const’:
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:855:35: error: ‘uint64_t’ does not name a type
+  855 |       return hash_int(static_cast<uint64_t>(obj));   \
+      |                                   ^~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:874:1: note: in expansion of macro ‘ROBIN_HOOD_HASH_INT’
+  874 | ROBIN_HOOD_HASH_INT(unsigned short);
+      | ^~~~~~~~~~~~~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:855:35: note: ‘uint64_t’ is defined in header ‘<cstdint>’; this is probably fixable by adding ‘#include <cstdint>’
+  855 |       return hash_int(static_cast<uint64_t>(obj));   \
+      |                                   ^~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:874:1: note: in expansion of macro ‘ROBIN_HOOD_HASH_INT’
+  874 | ROBIN_HOOD_HASH_INT(unsigned short);
+      | ^~~~~~~~~~~~~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:855:49: error: ‘robin_hood::hash_int’ cannot be used as a function
+  855 |       return hash_int(static_cast<uint64_t>(obj));   \
+      |                                                 ^
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:874:1: note: in expansion of macro ‘ROBIN_HOOD_HASH_INT’
+  874 | ROBIN_HOOD_HASH_INT(unsigned short);
+      | ^~~~~~~~~~~~~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h: In member function ‘size_t robin_hood::hash<int>::operator()(const int&) const’:
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:855:35: error: ‘uint64_t’ does not name a type
+  855 |       return hash_int(static_cast<uint64_t>(obj));   \
+      |                                   ^~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:875:1: note: in expansion of macro ‘ROBIN_HOOD_HASH_INT’
+  875 | ROBIN_HOOD_HASH_INT(int);
+      | ^~~~~~~~~~~~~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:855:35: note: ‘uint64_t’ is defined in header ‘<cstdint>’; this is probably fixable by adding ‘#include <cstdint>’
+  855 |       return hash_int(static_cast<uint64_t>(obj));   \
+      |                                   ^~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:875:1: note: in expansion of macro ‘ROBIN_HOOD_HASH_INT’
+  875 | ROBIN_HOOD_HASH_INT(int);
+      | ^~~~~~~~~~~~~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:855:49: error: ‘robin_hood::hash_int’ cannot be used as a function
+  855 |       return hash_int(static_cast<uint64_t>(obj));   \
+      |                                                 ^
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:875:1: note: in expansion of macro ‘ROBIN_HOOD_HASH_INT’
+  875 | ROBIN_HOOD_HASH_INT(int);
+      | ^~~~~~~~~~~~~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h: In member function ‘size_t robin_hood::hash<unsigned int>::operator()(const unsigned int&) const’:
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:855:35: error: ‘uint64_t’ does not name a type
+  855 |       return hash_int(static_cast<uint64_t>(obj));   \
+      |                                   ^~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:876:1: note: in expansion of macro ‘ROBIN_HOOD_HASH_INT’
+  876 | ROBIN_HOOD_HASH_INT(unsigned int);
+      | ^~~~~~~~~~~~~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:855:35: note: ‘uint64_t’ is defined in header ‘<cstdint>’; this is probably fixable by adding ‘#include <cstdint>’
+  855 |       return hash_int(static_cast<uint64_t>(obj));   \
+      |                                   ^~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:876:1: note: in expansion of macro ‘ROBIN_HOOD_HASH_INT’
+  876 | ROBIN_HOOD_HASH_INT(unsigned int);
+      | ^~~~~~~~~~~~~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:855:49: error: ‘robin_hood::hash_int’ cannot be used as a function
+  855 |       return hash_int(static_cast<uint64_t>(obj));   \
+      |                                                 ^
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:876:1: note: in expansion of macro ‘ROBIN_HOOD_HASH_INT’
+  876 | ROBIN_HOOD_HASH_INT(unsigned int);
+      | ^~~~~~~~~~~~~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h: In member function ‘size_t robin_hood::hash<long int>::operator()(const long int&) const’:
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:855:35: error: ‘uint64_t’ does not name a type
+  855 |       return hash_int(static_cast<uint64_t>(obj));   \
+      |                                   ^~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:877:1: note: in expansion of macro ‘ROBIN_HOOD_HASH_INT’
+  877 | ROBIN_HOOD_HASH_INT(long);
+      | ^~~~~~~~~~~~~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:855:35: note: ‘uint64_t’ is defined in header ‘<cstdint>’; this is probably fixable by adding ‘#include <cstdint>’
+  855 |       return hash_int(static_cast<uint64_t>(obj));   \
+      |                                   ^~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:877:1: note: in expansion of macro ‘ROBIN_HOOD_HASH_INT’
+  877 | ROBIN_HOOD_HASH_INT(long);
+      | ^~~~~~~~~~~~~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:855:49: error: ‘robin_hood::hash_int’ cannot be used as a function
+  855 |       return hash_int(static_cast<uint64_t>(obj));   \
+      |                                                 ^
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:877:1: note: in expansion of macro ‘ROBIN_HOOD_HASH_INT’
+  877 | ROBIN_HOOD_HASH_INT(long);
+      | ^~~~~~~~~~~~~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h: In member function ‘size_t robin_hood::hash<long long int>::operator()(const long long int&) const’:
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:855:35: error: ‘uint64_t’ does not name a type
+  855 |       return hash_int(static_cast<uint64_t>(obj));   \
+      |                                   ^~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:878:1: note: in expansion of macro ‘ROBIN_HOOD_HASH_INT’
+  878 | ROBIN_HOOD_HASH_INT(long long);
+      | ^~~~~~~~~~~~~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:855:35: note: ‘uint64_t’ is defined in header ‘<cstdint>’; this is probably fixable by adding ‘#include <cstdint>’
+  855 |       return hash_int(static_cast<uint64_t>(obj));   \
+      |                                   ^~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:878:1: note: in expansion of macro ‘ROBIN_HOOD_HASH_INT’
+  878 | ROBIN_HOOD_HASH_INT(long long);
+      | ^~~~~~~~~~~~~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:855:49: error: ‘robin_hood::hash_int’ cannot be used as a function
+  855 |       return hash_int(static_cast<uint64_t>(obj));   \
+      |                                                 ^
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:878:1: note: in expansion of macro ‘ROBIN_HOOD_HASH_INT’
+  878 | ROBIN_HOOD_HASH_INT(long long);
+      | ^~~~~~~~~~~~~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h: In member function ‘size_t robin_hood::hash<long unsigned int>::operator()(const long unsigned int&) const’:
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:855:35: error: ‘uint64_t’ does not name a type
+  855 |       return hash_int(static_cast<uint64_t>(obj));   \
+      |                                   ^~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:879:1: note: in expansion of macro ‘ROBIN_HOOD_HASH_INT’
+  879 | ROBIN_HOOD_HASH_INT(unsigned long);
+      | ^~~~~~~~~~~~~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:855:35: note: ‘uint64_t’ is defined in header ‘<cstdint>’; this is probably fixable by adding ‘#include <cstdint>’
+  855 |       return hash_int(static_cast<uint64_t>(obj));   \
+      |                                   ^~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:879:1: note: in expansion of macro ‘ROBIN_HOOD_HASH_INT’
+  879 | ROBIN_HOOD_HASH_INT(unsigned long);
+      | ^~~~~~~~~~~~~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:855:49: error: ‘robin_hood::hash_int’ cannot be used as a function
+  855 |       return hash_int(static_cast<uint64_t>(obj));   \
+      |                                                 ^
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:879:1: note: in expansion of macro ‘ROBIN_HOOD_HASH_INT’
+  879 | ROBIN_HOOD_HASH_INT(unsigned long);
+      | ^~~~~~~~~~~~~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h: In member function ‘size_t robin_hood::hash<long long unsigned int>::operator()(const long long unsigned int&) const’:
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:855:35: error: ‘uint64_t’ does not name a type
+  855 |       return hash_int(static_cast<uint64_t>(obj));   \
+      |                                   ^~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:880:1: note: in expansion of macro ‘ROBIN_HOOD_HASH_INT’
+  880 | ROBIN_HOOD_HASH_INT(unsigned long long);
+      | ^~~~~~~~~~~~~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:855:35: note: ‘uint64_t’ is defined in header ‘<cstdint>’; this is probably fixable by adding ‘#include <cstdint>’
+  855 |       return hash_int(static_cast<uint64_t>(obj));   \
+      |                                   ^~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:880:1: note: in expansion of macro ‘ROBIN_HOOD_HASH_INT’
+  880 | ROBIN_HOOD_HASH_INT(unsigned long long);
+      | ^~~~~~~~~~~~~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:855:49: error: ‘robin_hood::hash_int’ cannot be used as a function
+  855 |       return hash_int(static_cast<uint64_t>(obj));   \
+      |                                                 ^
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:880:1: note: in expansion of macro ‘ROBIN_HOOD_HASH_INT’
+  880 | ROBIN_HOOD_HASH_INT(unsigned long long);
+      | ^~~~~~~~~~~~~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h: At global scope:
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:988:55: error: ‘uint64_t’ was not declared in this scope [-Wtemplate-body]
+  988 |   static constexpr size_t InitialNumElements = sizeof(uint64_t);
+      |                                                       ^~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:988:55: note: ‘uint64_t’ is defined in header ‘<cstdint>’; this is probably fixable by adding ‘#include <cstdint>’
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:989:20: error: ‘uint32_t’ does not name a type [-Wtemplate-body]
+  989 |   static constexpr uint32_t InitialInfoNumBits = 5;
+      |                    ^~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:989:20: note: ‘uint32_t’ is defined in header ‘<cstdint>’; this is probably fixable by adding ‘#include <cstdint>’
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:990:20: error: ‘uint8_t’ does not name a type [-Wtemplate-body]
+  990 |   static constexpr uint8_t InitialInfoInc = 1U << InitialInfoNumBits;
+      |                    ^~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:990:20: note: ‘uint8_t’ is defined in header ‘<cstdint>’; this is probably fixable by adding ‘#include <cstdint>’
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:991:38: error: ‘InitialInfoInc’ was not declared in this scope [-Wtemplate-body]
+  991 |   static constexpr size_t InfoMask = InitialInfoInc - 1U;
+      |                                      ^~~~~~~~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:992:20: error: ‘uint8_t’ does not name a type [-Wtemplate-body]
+  992 |   static constexpr uint8_t InitialInfoHashShift = 0;
+      |                    ^~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:992:20: note: ‘uint8_t’ is defined in header ‘<cstdint>’; this is probably fixable by adding ‘#include <cstdint>’
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:996:20: error: ‘uint32_t’ does not name a type [-Wtemplate-body]
+  996 |   using InfoType = uint32_t;
+      |                    ^~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:996:20: note: ‘uint32_t’ is defined in header ‘<cstdint>’; this is probably fixable by adding ‘#include <cstdint>’
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1294:26: error: ‘uint8_t’ has not been declared [-Wtemplate-body]
+ 1294 |     Iter(NodePtr valPtr, uint8_t const* infoPtr) noexcept
+      |                          ^~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1294:26: note: ‘uint8_t’ is defined in header ‘<cstdint>’; this is probably fixable by adding ‘#include <cstdint>’
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1297:26: error: ‘uint8_t’ has not been declared [-Wtemplate-body]
+ 1297 |     Iter(NodePtr valPtr, uint8_t const* infoPtr,
+      |                          ^~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1297:26: note: ‘uint8_t’ is defined in header ‘<cstdint>’; this is probably fixable by adding ‘#include <cstdint>’
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1379:5: error: ‘uint8_t’ does not name a type [-Wtemplate-body]
+ 1379 |     uint8_t const* mInfo{nullptr};
+      |     ^~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1379:5: note: ‘uint8_t’ is defined in header ‘<cstdint>’; this is probably fixable by adding ‘#include <cstdint>’
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1388:45: error: ‘InfoType’ has not been declared [-Wtemplate-body]
+ 1388 |   void keyToIdx(HashKey&& key, size_t* idx, InfoType* info) const {
+      |                                             ^~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1403:13: error: ‘InfoType’ has not been declared [-Wtemplate-body]
+ 1403 |   void next(InfoType* info, size_t* idx) const noexcept {
+      |             ^~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1408:22: error: ‘InfoType’ has not been declared [-Wtemplate-body]
+ 1408 |   void nextWhileLess(InfoType* info, size_t* idx) const noexcept {
+      |                      ^~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:2578:3: error: ‘uint64_t’ does not name a type [-Wtemplate-body]
+ 2578 |   uint64_t mHashMultiplier = UINT64_C(0xc4ceb9fe1a85ec53);  // 8 byte  8
+      |   ^~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:2578:3: note: ‘uint64_t’ is defined in header ‘<cstdint>’; this is probably fixable by adding ‘#include <cstdint>’
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:2581:3: error: ‘uint8_t’ does not name a type [-Wtemplate-body]
+ 2581 |   uint8_t* mInfo = reinterpret_cast<uint8_t*>(&mMask);        // 8 byte 24
+      |   ^~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:2581:3: note: ‘uint8_t’ is defined in header ‘<cstdint>’; this is probably fixable by adding ‘#include <cstdint>’
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:2585:3: error: ‘InfoType’ does not name a type [-Wtemplate-body]
+ 2585 |   InfoType mInfoInc = InitialInfoInc;                         // 4 byte 52
+      |   ^~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:2586:3: error: ‘InfoType’ does not name a type [-Wtemplate-body]
+ 2586 |   InfoType mInfoHashShift = InitialInfoHashShift;             // 4 byte 56
+      |   ^~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h: In constructor ‘robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::Iter<IsConst>::Iter(const robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::Iter<OtherIsConst>&)’:
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1292:37: error: class ‘robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::Iter<IsConst>’ does not have any field named ‘mInfo’ [-Wtemplate-body]
+ 1292 |         : mKeyVals(other.mKeyVals), mInfo(other.mInfo) {}
+      |                                     ^~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h: In constructor ‘robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::Iter<IsConst>::Iter(NodePtr, const int*)’:
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1295:29: error: class ‘robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::Iter<IsConst>’ does not have any field named ‘mInfo’ [-Wtemplate-body]
+ 1295 |         : mKeyVals(valPtr), mInfo(infoPtr) {}
+      |                             ^~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h: In constructor ‘robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::Iter<IsConst>::Iter(NodePtr, const int*, robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::fast_forward_tag)’:
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1299:29: error: class ‘robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::Iter<IsConst>’ does not have any field named ‘mInfo’ [-Wtemplate-body]
+ 1299 |         : mKeyVals(valPtr), mInfo(infoPtr) {
+      |                             ^~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h: In member function ‘robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::Iter<IsConst>& robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::Iter<IsConst>::operator=(const robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::Iter<OtherIsConst>&)’:
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1307:7: error: ‘mInfo’ was not declared in this scope [-Wtemplate-body]
+ 1307 |       mInfo = other.mInfo;
+      |       ^~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h: In member function ‘robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::Iter<IsConst>& robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::Iter<IsConst>::operator++()’:
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1313:7: error: ‘mInfo’ was not declared in this scope [-Wtemplate-body]
+ 1313 |       mInfo++;
+      |       ^~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h: In member function ‘void robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::Iter<IsConst>::fastForward()’:
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1346:56: error: ‘mInfo’ was not declared in this scope [-Wtemplate-body]
+ 1346 |       while (0U == (n = detail::unaligned_load<size_t>(mInfo))) {
+      |                                                        ^~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1371:7: error: ‘mInfo’ was not declared in this scope [-Wtemplate-body]
+ 1371 |       mInfo += inc;
+      |       ^~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h: In member function ‘void robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::keyToIdx(HashKey&&, size_t*, int*) const’:
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1392:26: error: ‘uint64_t’ does not name a type [-Wtemplate-body]
+ 1392 |     auto h = static_cast<uint64_t>(WHash::operator()(key));
+      |                          ^~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1392:26: note: ‘uint64_t’ is defined in header ‘<cstdint>’; this is probably fixable by adding ‘#include <cstdint>’
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1394:10: error: ‘mHashMultiplier’ was not declared in this scope; did you mean ‘nextHashMultiplier’? [-Wtemplate-body]
+ 1394 |     h *= mHashMultiplier;
+      |          ^~~~~~~~~~~~~~~
+      |          nextHashMultiplier
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1398:13: error: ‘mInfoInc’ was not declared in this scope [-Wtemplate-body]
+ 1398 |     *info = mInfoInc + static_cast<InfoType>((h & InfoMask) >> mInfoHashShift);
+      |             ^~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1398:36: error: ‘InfoType’ does not name a type [-Wtemplate-body]
+ 1398 |     *info = mInfoInc + static_cast<InfoType>((h & InfoMask) >> mInfoHashShift);
+      |                                    ^~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1398:64: error: ‘mInfoHashShift’ was not declared in this scope [-Wtemplate-body]
+ 1398 |     *info = mInfoInc + static_cast<InfoType>((h & InfoMask) >> mInfoHashShift);
+      |                                                                ^~~~~~~~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1399:39: error: ‘InitialInfoNumBits’ was not declared in this scope [-Wtemplate-body]
+ 1399 |     *idx = (static_cast<size_t>(h) >> InitialInfoNumBits) & mMask;
+      |                                       ^~~~~~~~~~~~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h: In member function ‘void robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::next(int*, size_t*) const’:
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1405:14: error: ‘mInfoInc’ was not declared in this scope [-Wtemplate-body]
+ 1405 |     *info += mInfoInc;
+      |              ^~~~~~~~
+[ 34%] Building CXX object libCacheSim/traceAnalyzer/CMakeFiles/traceAnalyzer_lib.dir/experimental/lifetime.cpp.o
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h: In member function ‘void robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::nextWhileLess(int*, size_t*) const’:
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1410:20: error: ‘mInfo’ was not declared in this scope [-Wtemplate-body]
+ 1410 |     while (*info < mInfo[*idx]) {
+      |                    ^~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h: In member function ‘void robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::shiftUp(size_t, size_t)’:
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1428:7: error: ‘mInfo’ was not declared in this scope [-Wtemplate-body]
+ 1428 |       mInfo[idx] = static_cast<uint8_t>(mInfo[idx - 1] + mInfoInc);
+      |       ^~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1428:32: error: ‘uint8_t’ does not name a type [-Wtemplate-body]
+ 1428 |       mInfo[idx] = static_cast<uint8_t>(mInfo[idx - 1] + mInfoInc);
+      |                                ^~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1428:32: note: ‘uint8_t’ is defined in header ‘<cstdint>’; this is probably fixable by adding ‘#include <cstdint>’
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1428:58: error: ‘mInfoInc’ was not declared in this scope [-Wtemplate-body]
+ 1428 |       mInfo[idx] = static_cast<uint8_t>(mInfo[idx - 1] + mInfoInc);
+      |                                                          ^~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h: In member function ‘void robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::shiftDown(size_t)’:
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1444:12: error: ‘mInfo’ was not declared in this scope [-Wtemplate-body]
+ 1444 |     while (mInfo[idx + 1] >= 2 * mInfoInc) {
+      |            ^~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1444:34: error: ‘mInfoInc’ was not declared in this scope [-Wtemplate-body]
+ 1444 |     while (mInfo[idx + 1] >= 2 * mInfoInc) {
+      |                                  ^~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1446:32: error: ‘uint8_t’ does not name a type [-Wtemplate-body]
+ 1446 |       mInfo[idx] = static_cast<uint8_t>(mInfo[idx + 1] - mInfoInc);
+      |                                ^~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1446:32: note: ‘uint8_t’ is defined in header ‘<cstdint>’; this is probably fixable by adding ‘#include <cstdint>’
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1451:5: error: ‘mInfo’ was not declared in this scope [-Wtemplate-body]
+ 1451 |     mInfo[idx] = 0;
+      |     ^~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h: In member function ‘size_t robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::findIdx(const Other&) const’:
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1462:5: error: ‘InfoType’ was not declared in this scope [-Wtemplate-body]
+ 1462 |     InfoType info{};
+      |     ^~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1463:26: error: ‘info’ was not declared in this scope [-Wtemplate-body]
+ 1463 |     keyToIdx(key, &idx, &info);
+      |                          ^~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1468:19: error: ‘mInfo’ was not declared in this scope [-Wtemplate-body]
+ 1468 |       if (info == mInfo[idx] && ROBIN_HOOD_LIKELY(WKeyEqual::operator()(
+      |                   ^~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1473:19: error: ‘mInfo’ was not declared in this scope [-Wtemplate-body]
+ 1473 |       if (info == mInfo[idx] && ROBIN_HOOD_LIKELY(WKeyEqual::operator()(
+      |                   ^~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1478:22: error: ‘mInfo’ was not declared in this scope [-Wtemplate-body]
+ 1478 |     } while (info <= mInfo[idx]);
+      |                      ^~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h: In member function ‘void robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::insert_move(Node&&)’:
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1503:5: error: ‘InfoType’ was not declared in this scope [-Wtemplate-body]
+ 1503 |     InfoType info{};
+      |     ^~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1504:40: error: ‘info’ was not declared in this scope [-Wtemplate-body]
+ 1504 |     keyToIdx(keyval.getFirst(), &idx, &info);
+      |                                        ^~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1508:20: error: ‘mInfo’ was not declared in this scope [-Wtemplate-body]
+ 1508 |     while (info <= mInfo[idx]) {
+      |                    ^~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1510:15: error: ‘mInfoInc’ was not declared in this scope [-Wtemplate-body]
+ 1510 |       info += mInfoInc;
+      |               ^~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1515:45: error: ‘uint8_t’ does not name a type [-Wtemplate-body]
+ 1515 |     auto const insertion_info = static_cast<uint8_t>(info);
+      |                                             ^~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1515:45: note: ‘uint8_t’ is defined in header ‘<cstdint>’; this is probably fixable by adding ‘#include <cstdint>’
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1516:46: error: ‘mInfoInc’ was not declared in this scope [-Wtemplate-body]
+ 1516 |     if (ROBIN_HOOD_UNLIKELY(insertion_info + mInfoInc > 0xFF)) {
+      |                                              ^~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:193:57: note: in definition of macro ‘ROBIN_HOOD_UNLIKELY’
+  193 | #define ROBIN_HOOD_UNLIKELY(condition) __builtin_expect(condition, 0)
+      |                                                         ^~~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1521:17: error: ‘mInfo’ was not declared in this scope [-Wtemplate-body]
+ 1521 |     while (0 != mInfo[idx]) {
+      |                 ^~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1534:5: error: ‘mInfo’ was not declared in this scope [-Wtemplate-body]
+ 1534 |     mInfo[insertion_idx] = insertion_info;
+      |     ^~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h: In constructor ‘robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::Table(robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>&&)’:
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1585:7: error: ‘mHashMultiplier’ was not declared in this scope; did you mean ‘nextHashMultiplier’? [-Wtemplate-body]
+ 1585 |       mHashMultiplier = std::move(o.mHashMultiplier);
+      |       ^~~~~~~~~~~~~~~
+      |       nextHashMultiplier
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1587:7: error: ‘mInfo’ was not declared in this scope [-Wtemplate-body]
+ 1587 |       mInfo = std::move(o.mInfo);
+      |       ^~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1591:7: error: ‘mInfoInc’ was not declared in this scope [-Wtemplate-body]
+ 1591 |       mInfoInc = std::move(o.mInfoInc);
+      |       ^~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1592:7: error: ‘mInfoHashShift’ was not declared in this scope [-Wtemplate-body]
+ 1592 |       mInfoHashShift = std::move(o.mInfoHashShift);
+      |       ^~~~~~~~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h: In member function ‘robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>& robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::operator=(robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>&&)’:
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1604:9: error: ‘mHashMultiplier’ was not declared in this scope; did you mean ‘nextHashMultiplier’? [-Wtemplate-body]
+ 1604 |         mHashMultiplier = std::move(o.mHashMultiplier);
+      |         ^~~~~~~~~~~~~~~
+      |         nextHashMultiplier
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1606:9: error: ‘mInfo’ was not declared in this scope [-Wtemplate-body]
+ 1606 |         mInfo = std::move(o.mInfo);
+      |         ^~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1610:9: error: ‘mInfoInc’ was not declared in this scope [-Wtemplate-body]
+ 1610 |         mInfoInc = std::move(o.mInfoInc);
+      |         ^~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1611:9: error: ‘mInfoHashShift’ was not declared in this scope [-Wtemplate-body]
+ 1611 |         mInfoHashShift = std::move(o.mInfoHashShift);
+      |         ^~~~~~~~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h: In copy constructor ‘robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::Table(const robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>&)’:
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1640:7: error: ‘mHashMultiplier’ was not declared in this scope; did you mean ‘nextHashMultiplier’? [-Wtemplate-body]
+ 1640 |       mHashMultiplier = o.mHashMultiplier;
+      |       ^~~~~~~~~~~~~~~
+      |       nextHashMultiplier
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1644:7: error: ‘mInfo’ was not declared in this scope [-Wtemplate-body]
+ 1644 |       mInfo = reinterpret_cast<uint8_t*>(mKeyVals + numElementsWithBuffer);
+      |       ^~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1644:32: error: ‘uint8_t’ does not name a type [-Wtemplate-body]
+ 1644 |       mInfo = reinterpret_cast<uint8_t*>(mKeyVals + numElementsWithBuffer);
+      |                                ^~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1644:32: note: ‘uint8_t’ is defined in header ‘<cstdint>’; this is probably fixable by adding ‘#include <cstdint>’
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1644:39: error: expected ‘>’ before ‘*’ token [-Wtemplate-body]
+ 1644 |       mInfo = reinterpret_cast<uint8_t*>(mKeyVals + numElementsWithBuffer);
+      |                                       ^
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1648:7: error: ‘mInfoInc’ was not declared in this scope [-Wtemplate-body]
+ 1648 |       mInfoInc = o.mInfoInc;
+      |       ^~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1649:7: error: ‘mInfoHashShift’ was not declared in this scope [-Wtemplate-body]
+ 1649 |       mInfoHashShift = o.mInfoHashShift;
+      |       ^~~~~~~~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h: In member function ‘robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>& robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::operator=(const robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>&)’:
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1704:7: error: ‘mInfo’ was not declared in this scope [-Wtemplate-body]
+ 1704 |       mInfo = reinterpret_cast<uint8_t*>(mKeyVals + numElementsWithBuffer);
+      |       ^~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1704:32: error: ‘uint8_t’ does not name a type [-Wtemplate-body]
+ 1704 |       mInfo = reinterpret_cast<uint8_t*>(mKeyVals + numElementsWithBuffer);
+      |                                ^~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1704:32: note: ‘uint8_t’ is defined in header ‘<cstdint>’; this is probably fixable by adding ‘#include <cstdint>’
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1704:39: error: expected ‘>’ before ‘*’ token [-Wtemplate-body]
+ 1704 |       mInfo = reinterpret_cast<uint8_t*>(mKeyVals + numElementsWithBuffer);
+      |                                       ^
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1710:5: error: ‘mHashMultiplier’ was not declared in this scope; did you mean ‘nextHashMultiplier’? [-Wtemplate-body]
+ 1710 |     mHashMultiplier = o.mHashMultiplier;
+      |     ^~~~~~~~~~~~~~~
+      |     nextHashMultiplier
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1714:5: error: ‘mInfoInc’ was not declared in this scope [-Wtemplate-body]
+ 1714 |     mInfoInc = o.mInfoInc;
+      |     ^~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1715:5: error: ‘mInfoHashShift’ was not declared in this scope [-Wtemplate-body]
+ 1715 |     mInfoHashShift = o.mInfoHashShift;
+      |     ^~~~~~~~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h: In member function ‘void robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::clear()’:
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1742:5: error: ‘uint8_t’ was not declared in this scope [-Wtemplate-body]
+ 1742 |     uint8_t const z = 0;
+      |     ^~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1742:5: note: ‘uint8_t’ is defined in header ‘<cstdint>’; this is probably fixable by adding ‘#include <cstdint>’
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1743:15: error: ‘mInfo’ was not declared in this scope [-Wtemplate-body]
+ 1743 |     std::fill(mInfo, mInfo + calcNumBytesInfo(numElementsWithBuffer), z);
+      |               ^~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1743:71: error: ‘z’ was not declared in this scope [-Wtemplate-body]
+ 1743 |     std::fill(mInfo, mInfo + calcNumBytesInfo(numElementsWithBuffer), z);
+      |                                                                       ^
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1746:5: error: ‘mInfoInc’ was not declared in this scope [-Wtemplate-body]
+ 1746 |     mInfoInc = InitialInfoInc;
+      |     ^~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1746:16: error: ‘InitialInfoInc’ was not declared in this scope [-Wtemplate-body]
+ 1746 |     mInfoInc = InitialInfoInc;
+      |                ^~~~~~~~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1747:5: error: ‘mInfoHashShift’ was not declared in this scope [-Wtemplate-body]
+ 1747 |     mInfoHashShift = InitialInfoHashShift;
+      |     ^~~~~~~~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1747:22: error: ‘InitialInfoHashShift’ was not declared in this scope [-Wtemplate-body]
+ 1747 |     mInfoHashShift = InitialInfoHashShift;
+      |                      ^~~~~~~~~~~~~~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h: In member function ‘std::pair<robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::Iter<false>, bool> robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::emplace(Args&& ...)’:
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1872:48: error: ‘mInfo’ was not declared in this scope [-Wtemplate-body]
+ 1872 |         iterator(mKeyVals + idxAndState.first, mInfo + idxAndState.first),
+      |                                                ^~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h: In member function ‘size_t robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::count(const key_type&) const’:
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1939:61: error: ‘mInfo’ was not declared in this scope [-Wtemplate-body]
+ 1939 |     if (kv != reinterpret_cast_no_cast_align_warning<Node*>(mInfo)) {
+      |                                                             ^~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h: In member function ‘typename std::enable_if<Self_::is_transparent, long unsigned int>::type robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::count(const OtherKey&) const’:
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1951:61: error: ‘mInfo’ was not declared in this scope [-Wtemplate-body]
+ 1951 |     if (kv != reinterpret_cast_no_cast_align_warning<Node*>(mInfo)) {
+      |                                                             ^~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h: In member function ‘typename std::enable_if<(! std::is_void<_Dummy>::value), Q&>::type robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::at(const key_type&)’:
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1976:61: error: ‘mInfo’ was not declared in this scope [-Wtemplate-body]
+ 1976 |     if (kv == reinterpret_cast_no_cast_align_warning<Node*>(mInfo)) {
+      |                                                             ^~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h: In member function ‘typename std::enable_if<(! std::is_void<_Dummy>::value), const Q&>::type robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::at(const key_type&) const’:
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1990:61: error: ‘mInfo’ was not declared in this scope [-Wtemplate-body]
+ 1990 |     if (kv == reinterpret_cast_no_cast_align_warning<Node*>(mInfo)) {
+      |                                                             ^~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h: In member function ‘robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::const_iterator robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::find(const key_type&) const’:
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:2000:43: error: ‘mInfo’ was not declared in this scope [-Wtemplate-body]
+ 2000 |     return const_iterator{mKeyVals + idx, mInfo + idx};
+      |                                           ^~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h: In member function ‘robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::const_iterator robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::find(const OtherKey&, robin_hood::is_transparent_tag) const’:
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:2008:43: error: ‘mInfo’ was not declared in this scope [-Wtemplate-body]
+ 2008 |     return const_iterator{mKeyVals + idx, mInfo + idx};
+      |                                           ^~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h: In member function ‘typename std::enable_if<Self_::is_transparent, robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::Iter<true> >::type robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::find(const OtherKey&) const’:
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:2018:43: error: ‘mInfo’ was not declared in this scope [-Wtemplate-body]
+ 2018 |     return const_iterator{mKeyVals + idx, mInfo + idx};
+      |                                           ^~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h: In member function ‘robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::iterator robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::find(const key_type&)’:
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:2024:37: error: ‘mInfo’ was not declared in this scope [-Wtemplate-body]
+ 2024 |     return iterator{mKeyVals + idx, mInfo + idx};
+      |                                     ^~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h: In member function ‘robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::iterator robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::find(const OtherKey&, robin_hood::is_transparent_tag)’:
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:2031:37: error: ‘mInfo’ was not declared in this scope [-Wtemplate-body]
+ 2031 |     return iterator{mKeyVals + idx, mInfo + idx};
+      |                                     ^~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h: In member function ‘typename std::enable_if<Self_::is_transparent, robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::Iter<false> >::type robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::find(const OtherKey&)’:
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:2039:37: error: ‘mInfo’ was not declared in this scope [-Wtemplate-body]
+ 2039 |     return iterator{mKeyVals + idx, mInfo + idx};
+      |                                     ^~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h: In member function ‘robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::iterator robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::begin()’:
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:2047:31: error: ‘mInfo’ was not declared in this scope [-Wtemplate-body]
+ 2047 |     return iterator(mKeyVals, mInfo, fast_forward_tag{});
+      |                               ^~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h: In member function ‘robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::const_iterator robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::cbegin() const’:
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:2058:37: error: ‘mInfo’ was not declared in this scope [-Wtemplate-body]
+ 2058 |     return const_iterator(mKeyVals, mInfo, fast_forward_tag{});
+      |                                     ^~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h: In member function ‘robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::iterator robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::end()’:
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:2065:67: error: ‘mInfo’ was not declared in this scope [-Wtemplate-body]
+ 2065 |     return iterator{reinterpret_cast_no_cast_align_warning<Node*>(mInfo),
+      |                                                                   ^~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h: In member function ‘robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::const_iterator robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::cend() const’:
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:2074:73: error: ‘mInfo’ was not declared in this scope [-Wtemplate-body]
+ 2074 |     return const_iterator{reinterpret_cast_no_cast_align_warning<Node*>(mInfo),
+      |                                                                         ^~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h: In member function ‘robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::iterator robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::erase(const_iterator)’:
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:2083:38: error: ‘uint8_t’ does not name a type [-Wtemplate-body]
+ 2083 |                           const_cast<uint8_t*>(pos.mInfo)});
+      |                                      ^~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:2083:38: note: ‘uint8_t’ is defined in header ‘<cstdint>’; this is probably fixable by adding ‘#include <cstdint>’
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:2083:45: error: expected ‘>’ before ‘*’ token [-Wtemplate-body]
+ 2083 |                           const_cast<uint8_t*>(pos.mInfo)});
+      |                                             ^
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h: In member function ‘size_t robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::erase(const key_type&)’:
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:2107:5: error: ‘InfoType’ was not declared in this scope [-Wtemplate-body]
+ 2107 |     InfoType info{};
+      |     ^~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:2108:26: error: ‘info’ was not declared in this scope [-Wtemplate-body]
+ 2108 |     keyToIdx(key, &idx, &info);
+      |                          ^~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:2112:19: error: ‘mInfo’ was not declared in this scope [-Wtemplate-body]
+ 2112 |       if (info == mInfo[idx] &&
+      |                   ^~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:2119:22: error: ‘mInfo’ was not declared in this scope [-Wtemplate-body]
+ 2119 |     } while (info <= mInfo[idx]);
+      |                      ^~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h: In member function ‘size_t robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::calcNumBytesInfo(size_t) const’:
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:2209:33: error: ‘uint64_t’ was not declared in this scope [-Wtemplate-body]
+ 2209 |     return numElements + sizeof(uint64_t);
+      |                                 ^~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:2209:33: note: ‘uint64_t’ is defined in header ‘<cstdint>’; this is probably fixable by adding ‘#include <cstdint>’
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h: In member function ‘size_t robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::calcNumBytesTotal(size_t) const’:
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:2226:33: error: ‘uint64_t’ does not name a type [-Wtemplate-body]
+ 2226 |     auto const ne = static_cast<uint64_t>(numElements);
+      |                                 ^~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:2226:33: note: ‘uint64_t’ is defined in header ‘<cstdint>’; this is probably fixable by adding ‘#include <cstdint>’
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:2227:32: error: ‘uint64_t’ does not name a type [-Wtemplate-body]
+ 2227 |     auto const s = static_cast<uint64_t>(sizeof(Node));
+      |                                ^~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:2227:32: note: ‘uint64_t’ is defined in header ‘<cstdint>’; this is probably fixable by adding ‘#include <cstdint>’
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:2228:36: error: ‘uint64_t’ does not name a type [-Wtemplate-body]
+ 2228 |     auto const infos = static_cast<uint64_t>(calcNumBytesInfo(numElements));
+      |                                    ^~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:2228:36: note: ‘uint64_t’ is defined in header ‘<cstdint>’; this is probably fixable by adding ‘#include <cstdint>’
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:2233:41: error: ‘uint64_t’ does not name a type [-Wtemplate-body]
+ 2233 |     if (ROBIN_HOOD_UNLIKELY(static_cast<uint64_t>(total) != total64)) {
+      |                                         ^~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:193:57: note: in definition of macro ‘ROBIN_HOOD_UNLIKELY’
+  193 | #define ROBIN_HOOD_UNLIKELY(condition) __builtin_expect(condition, 0)
+      |                                                         ^~~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:2233:41: note: ‘uint64_t’ is defined in header ‘<cstdint>’; this is probably fixable by adding ‘#include <cstdint>’
+ 2233 |     if (ROBIN_HOOD_UNLIKELY(static_cast<uint64_t>(total) != total64)) {
+      |                                         ^~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:193:57: note: in definition of macro ‘ROBIN_HOOD_UNLIKELY’
+  193 | #define ROBIN_HOOD_UNLIKELY(condition) __builtin_expect(condition, 0)
+      |                                                         ^~~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h: In member function ‘void robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::rehashPowerOfTwo(size_t, bool)’:
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:2287:5: error: ‘uint8_t’ was not declared in this scope [-Wtemplate-body]
+ 2287 |     uint8_t const* const oldInfo = mInfo;
+      |     ^~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:2287:5: note: ‘uint8_t’ is defined in header ‘<cstdint>’; this is probably fixable by adding ‘#include <cstdint>’
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:2296:13: error: ‘oldInfo’ was not declared in this scope [-Wtemplate-body]
+ 2296 |         if (oldInfo[i] != 0) {
+      |             ^~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h: In member function ‘std::pair<robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::Iter<false>, bool> robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::try_emplace_impl(OtherKey&&, Args&& ...)’:
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:2356:48: error: ‘mInfo’ was not declared in this scope [-Wtemplate-body]
+ 2356 |         iterator(mKeyVals + idxAndState.first, mInfo + idxAndState.first),
+      |                                                ^~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h: In member function ‘std::pair<robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::Iter<false>, bool> robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::insertOrAssignImpl(OtherKey&&, Mapped&&)’:
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:2389:48: error: ‘mInfo’ was not declared in this scope [-Wtemplate-body]
+ 2389 |         iterator(mKeyVals + idxAndState.first, mInfo + idxAndState.first),
+      |                                                ^~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h: In member function ‘void robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::initData(size_t)’:
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:2406:5: error: ‘mInfo’ was not declared in this scope [-Wtemplate-body]
+ 2406 |     mInfo = reinterpret_cast<uint8_t*>(mKeyVals + numElementsWithBuffer);
+      |     ^~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:2406:30: error: ‘uint8_t’ does not name a type [-Wtemplate-body]
+ 2406 |     mInfo = reinterpret_cast<uint8_t*>(mKeyVals + numElementsWithBuffer);
+      |                              ^~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:2406:30: note: ‘uint8_t’ is defined in header ‘<cstdint>’; this is probably fixable by adding ‘#include <cstdint>’
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:2406:37: error: expected ‘>’ before ‘*’ token [-Wtemplate-body]
+ 2406 |     mInfo = reinterpret_cast<uint8_t*>(mKeyVals + numElementsWithBuffer);
+      |                                     ^
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:2411:5: error: ‘mInfoInc’ was not declared in this scope [-Wtemplate-body]
+ 2411 |     mInfoInc = InitialInfoInc;
+      |     ^~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:2411:16: error: ‘InitialInfoInc’ was not declared in this scope [-Wtemplate-body]
+ 2411 |     mInfoInc = InitialInfoInc;
+      |                ^~~~~~~~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:2412:5: error: ‘mInfoHashShift’ was not declared in this scope [-Wtemplate-body]
+ 2412 |     mInfoHashShift = InitialInfoHashShift;
+      |     ^~~~~~~~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:2412:22: error: ‘InitialInfoHashShift’ was not declared in this scope [-Wtemplate-body]
+ 2412 |     mInfoHashShift = InitialInfoHashShift;
+      |                      ^~~~~~~~~~~~~~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h: In member function ‘std::pair<long unsigned int, robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::InsertionState> robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::insertKeyPrepareEmptySpot(OtherKey&&)’:
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:2430:7: error: ‘InfoType’ was not declared in this scope [-Wtemplate-body]
+ 2430 |       InfoType info{};
+      |       ^~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:2431:28: error: ‘info’ was not declared in this scope [-Wtemplate-body]
+ 2431 |       keyToIdx(key, &idx, &info);
+      |                            ^~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:2435:22: error: ‘mInfo’ was not declared in this scope [-Wtemplate-body]
+ 2435 |       while (info == mInfo[idx]) {
+      |                      ^~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:2455:48: error: ‘mInfoInc’ was not declared in this scope [-Wtemplate-body]
+ 2455 |       if (ROBIN_HOOD_UNLIKELY(insertion_info + mInfoInc > 0xFF)) {
+      |                                                ^~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:193:57: note: in definition of macro ‘ROBIN_HOOD_UNLIKELY’
+  193 | #define ROBIN_HOOD_UNLIKELY(condition) __builtin_expect(condition, 0)
+      |                                                         ^~~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:2460:19: error: ‘mInfo’ was not declared in this scope [-Wtemplate-body]
+ 2460 |       while (0 != mInfo[idx]) {
+      |                   ^~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:2468:7: error: ‘mInfo’ was not declared in this scope [-Wtemplate-body]
+ 2468 |       mInfo[insertion_idx] = static_cast<uint8_t>(insertion_info);
+      |       ^~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:2468:42: error: ‘uint8_t’ does not name a type [-Wtemplate-body]
+ 2468 |       mInfo[insertion_idx] = static_cast<uint8_t>(insertion_info);
+      |                                          ^~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:2468:42: note: ‘uint8_t’ is defined in header ‘<cstdint>’; this is probably fixable by adding ‘#include <cstdint>’
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h: In member function ‘bool robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::try_increase_info()’:
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:2483:9: error: ‘mInfoInc’ was not declared in this scope [-Wtemplate-body]
+ 2483 |     if (mInfoInc <= 2) {
+      |         ^~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:2488:5: error: ‘mInfoInc’ was not declared in this scope [-Wtemplate-body]
+ 2488 |     mInfoInc = static_cast<uint8_t>(mInfoInc >> 1U);
+      |     ^~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:2488:28: error: ‘uint8_t’ does not name a type [-Wtemplate-body]
+ 2488 |     mInfoInc = static_cast<uint8_t>(mInfoInc >> 1U);
+      |                            ^~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:2488:28: note: ‘uint8_t’ is defined in header ‘<cstdint>’; this is probably fixable by adding ‘#include <cstdint>’
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:2492:7: error: ‘mInfoHashShift’ was not declared in this scope [-Wtemplate-body]
+ 2492 |     ++mInfoHashShift;
+      |       ^~~~~~~~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:2496:33: error: ‘uint64_t’ was not declared in this scope [-Wtemplate-body]
+ 2496 |       auto val = unaligned_load<uint64_t>(mInfo + i);
+      |                                 ^~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:2496:33: note: ‘uint64_t’ is defined in header ‘<cstdint>’; this is probably fixable by adding ‘#include <cstdint>’
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:2496:43: error: ‘mInfo’ was not declared in this scope [-Wtemplate-body]
+ 2496 |       auto val = unaligned_load<uint64_t>(mInfo + i);
+      |                                           ^~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:2497:27: error: there are no arguments to ‘UINT64_C’ that depend on a template parameter, so a declaration of ‘UINT64_C’ must be available [-Wtemplate-body]
+ 2497 |       val = (val >> 1U) & UINT64_C(0x7f7f7f7f7f7f7f7f);
+      |                           ^~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:2497:27: note: (if you use ‘-fpermissive’, G++ will accept your code, but allowing the use of an undeclared name is deprecated)
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:2501:5: error: ‘mInfo’ was not declared in this scope [-Wtemplate-body]
+ 2501 |     mInfo[numElementsWithBuffer] = 1;
+      |     ^~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h: In member function ‘void robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::nextHashMultiplier()’:
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:2544:5: error: ‘mHashMultiplier’ was not declared in this scope; did you mean ‘nextHashMultiplier’? [-Wtemplate-body]
+ 2544 |     mHashMultiplier += UINT64_C(0xc4ceb9fe1a85ec54);
+      |     ^~~~~~~~~~~~~~~
+      |     nextHashMultiplier
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:2544:24: error: there are no arguments to ‘UINT64_C’ that depend on a template parameter, so a declaration of ‘UINT64_C’ must be available [-Wtemplate-body]
+ 2544 |     mHashMultiplier += UINT64_C(0xc4ceb9fe1a85ec54);
+      |                        ^~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h: In member function ‘void robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::init()’:
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:2569:5: error: ‘mInfo’ was not declared in this scope [-Wtemplate-body]
+ 2569 |     mInfo = reinterpret_cast<uint8_t*>(&mMask);
+      |     ^~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:2569:30: error: ‘uint8_t’ does not name a type [-Wtemplate-body]
+ 2569 |     mInfo = reinterpret_cast<uint8_t*>(&mMask);
+      |                              ^~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:2569:30: note: ‘uint8_t’ is defined in header ‘<cstdint>’; this is probably fixable by adding ‘#include <cstdint>’
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:2569:37: error: expected ‘>’ before ‘*’ token [-Wtemplate-body]
+ 2569 |     mInfo = reinterpret_cast<uint8_t*>(&mMask);
+      |                                     ^
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:2573:5: error: ‘mInfoInc’ was not declared in this scope [-Wtemplate-body]
+ 2573 |     mInfoInc = InitialInfoInc;
+      |     ^~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:2573:16: error: ‘InitialInfoInc’ was not declared in this scope [-Wtemplate-body]
+ 2573 |     mInfoInc = InitialInfoInc;
+      |                ^~~~~~~~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:2574:5: error: ‘mInfoHashShift’ was not declared in this scope [-Wtemplate-body]
+ 2574 |     mInfoHashShift = InitialInfoHashShift;
+      |     ^~~~~~~~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:2574:22: error: ‘InitialInfoHashShift’ was not declared in this scope [-Wtemplate-body]
+ 2574 |     mInfoHashShift = InitialInfoHashShift;
+      |                      ^~~~~~~~~~~~~~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h: In instantiation of ‘robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::iterator robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::find(const key_type&) [with bool IsFlat = true; long unsigned int MaxLoadFactor100 = 80; Key = long unsigned int; T = traceAnalyzer::CreateFutureReuseDistribution::create_info; Hash = robin_hood::hash<long unsigned int>; KeyEqual = std::equal_to<long unsigned int>; iterator = robin_hood::detail::Table<true, 80, long unsigned int, traceAnalyzer::CreateFutureReuseDistribution::create_info, robin_hood::hash<long unsigned int>, std::equal_to<long unsigned int> >::Iter<false>; key_type = long unsigned int]’:
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/createFutureReuseCCDF.cpp:30:34:   required from here
+   30 |   auto it = create_info_map_.find(req->obj_id);
+      |             ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:2024:48: error: no matching function for call to ‘robin_hood::detail::Table<true, 80, long unsigned int, traceAnalyzer::CreateFutureReuseDistribution::create_info, robin_hood::hash<long unsigned int>, std::equal_to<long unsigned int> >::Iter<false>::Iter(<brace-enclosed initializer list>)’
+ 2024 |     return iterator{mKeyVals + idx, mInfo + idx};
+      |                                                ^
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:2024:48: note: there are 6 candidates
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1291:5: note: candidate 1: ‘template<bool OtherIsConst, class> robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::Iter<IsConst>::Iter(const robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::Iter<OtherIsConst>&) [with bool OtherIsConst = OtherIsConst; bool IsConst = false; bool IsFlat = true; long unsigned int MaxLoadFactor100 = 80; Key = long unsigned int; T = traceAnalyzer::CreateFutureReuseDistribution::create_info; Hash = robin_hood::hash<long unsigned int>; KeyEqual = std::equal_to<long unsigned int>]’
+ 1291 |     Iter(Iter<OtherIsConst> const& other) noexcept
+      |     ^~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1291:5: note: candidate expects 1 argument, 2 provided
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1297:5: note: candidate 2: ‘robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::Iter<IsConst>::Iter(NodePtr, const int*, robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::fast_forward_tag) [with bool IsConst = false; bool IsFlat = true; long unsigned int MaxLoadFactor100 = 80; Key = long unsigned int; T = traceAnalyzer::CreateFutureReuseDistribution::create_info; Hash = robin_hood::hash<long unsigned int>; KeyEqual = std::equal_to<long unsigned int>; NodePtr = robin_hood::detail::Table<true, 80, long unsigned int, traceAnalyzer::CreateFutureReuseDistribution::create_info, robin_hood::hash<long unsigned int>, std::equal_to<long unsigned int> >::DataNode<robin_hood::detail::Table<true, 80, long unsigned int, traceAnalyzer::CreateFutureReuseDistribution::create_info, robin_hood::hash<long unsigned int>, std::equal_to<long unsigned int> >, true>*]’
+ 1297 |     Iter(NodePtr valPtr, uint8_t const* infoPtr,
+      |     ^~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1297:5: note: candidate expects 3 arguments, 2 provided
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1294:5: note: candidate 3: ‘robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::Iter<IsConst>::Iter(NodePtr, const int*) [with bool IsConst = false; bool IsFlat = true; long unsigned int MaxLoadFactor100 = 80; Key = long unsigned int; T = traceAnalyzer::CreateFutureReuseDistribution::create_info; Hash = robin_hood::hash<long unsigned int>; KeyEqual = std::equal_to<long unsigned int>; NodePtr = robin_hood::detail::Table<true, 80, long unsigned int, traceAnalyzer::CreateFutureReuseDistribution::create_info, robin_hood::hash<long unsigned int>, std::equal_to<long unsigned int> >::DataNode<robin_hood::detail::Table<true, 80, long unsigned int, traceAnalyzer::CreateFutureReuseDistribution::create_info, robin_hood::hash<long unsigned int>, std::equal_to<long unsigned int> >, true>*]’
+ 1294 |     Iter(NodePtr valPtr, uint8_t const* infoPtr) noexcept
+      |     ^~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1294:5: note: conversion of argument 2 would be ill-formed:
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1281:5: note: candidate 4: ‘constexpr robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::Iter<IsConst>::Iter() [with bool IsConst = false; bool IsFlat = true; long unsigned int MaxLoadFactor100 = 80; Key = long unsigned int; T = traceAnalyzer::CreateFutureReuseDistribution::create_info; Hash = robin_hood::hash<long unsigned int>; KeyEqual = std::equal_to<long unsigned int>]’
+ 1281 |     Iter() = default;
+      |     ^~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1281:5: note: candidate expects 0 arguments, 2 provided
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1265:9: note: candidate 5: ‘constexpr robin_hood::detail::Table<true, 80, long unsigned int, traceAnalyzer::CreateFutureReuseDistribution::create_info, robin_hood::hash<long unsigned int>, std::equal_to<long unsigned int> >::Iter<false>::Iter(const robin_hood::detail::Table<true, 80, long unsigned int, traceAnalyzer::CreateFutureReuseDistribution::create_info, robin_hood::hash<long unsigned int>, std::equal_to<long unsigned int> >::Iter<false>&)’
+ 1265 |   class Iter {
+      |         ^~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1265:9: note: candidate expects 1 argument, 2 provided
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1265:9: note: candidate 6: ‘constexpr robin_hood::detail::Table<true, 80, long unsigned int, traceAnalyzer::CreateFutureReuseDistribution::create_info, robin_hood::hash<long unsigned int>, std::equal_to<long unsigned int> >::Iter<false>::Iter(robin_hood::detail::Table<true, 80, long unsigned int, traceAnalyzer::CreateFutureReuseDistribution::create_info, robin_hood::hash<long unsigned int>, std::equal_to<long unsigned int> >::Iter<false>&&)’
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1265:9: note: candidate expects 1 argument, 2 provided
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h: In instantiation of ‘robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::iterator robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::end() [with bool IsFlat = true; long unsigned int MaxLoadFactor100 = 80; Key = long unsigned int; T = traceAnalyzer::CreateFutureReuseDistribution::create_info; Hash = robin_hood::hash<long unsigned int>; KeyEqual = std::equal_to<long unsigned int>; iterator = robin_hood::detail::Table<true, 80, long unsigned int, traceAnalyzer::CreateFutureReuseDistribution::create_info, robin_hood::hash<long unsigned int>, std::equal_to<long unsigned int> >::Iter<false>]’:
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/createFutureReuseCCDF.cpp:32:33:   required from here
+   32 |   if (it == create_info_map_.end()) {
+      |             ~~~~~~~~~~~~~~~~~~~~^~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:2066:28: error: no matching function for call to ‘robin_hood::detail::Table<true, 80, long unsigned int, traceAnalyzer::CreateFutureReuseDistribution::create_info, robin_hood::hash<long unsigned int>, std::equal_to<long unsigned int> >::Iter<false>::Iter(<brace-enclosed initializer list>)’
+ 2066 |                     nullptr};
+      |                            ^
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:2066:28: note: there are 6 candidates
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1291:5: note: candidate 1: ‘template<bool OtherIsConst, class> robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::Iter<IsConst>::Iter(const robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::Iter<OtherIsConst>&) [with bool OtherIsConst = OtherIsConst; bool IsConst = false; bool IsFlat = true; long unsigned int MaxLoadFactor100 = 80; Key = long unsigned int; T = traceAnalyzer::CreateFutureReuseDistribution::create_info; Hash = robin_hood::hash<long unsigned int>; KeyEqual = std::equal_to<long unsigned int>]’
+ 1291 |     Iter(Iter<OtherIsConst> const& other) noexcept
+      |     ^~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1291:5: note: candidate expects 1 argument, 2 provided
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1297:5: note: candidate 2: ‘robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::Iter<IsConst>::Iter(NodePtr, const int*, robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::fast_forward_tag) [with bool IsConst = false; bool IsFlat = true; long unsigned int MaxLoadFactor100 = 80; Key = long unsigned int; T = traceAnalyzer::CreateFutureReuseDistribution::create_info; Hash = robin_hood::hash<long unsigned int>; KeyEqual = std::equal_to<long unsigned int>; NodePtr = robin_hood::detail::Table<true, 80, long unsigned int, traceAnalyzer::CreateFutureReuseDistribution::create_info, robin_hood::hash<long unsigned int>, std::equal_to<long unsigned int> >::DataNode<robin_hood::detail::Table<true, 80, long unsigned int, traceAnalyzer::CreateFutureReuseDistribution::create_info, robin_hood::hash<long unsigned int>, std::equal_to<long unsigned int> >, true>*]’
+ 1297 |     Iter(NodePtr valPtr, uint8_t const* infoPtr,
+      |     ^~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1297:5: note: candidate expects 3 arguments, 2 provided
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1294:5: note: candidate 3: ‘robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::Iter<IsConst>::Iter(NodePtr, const int*) [with bool IsConst = false; bool IsFlat = true; long unsigned int MaxLoadFactor100 = 80; Key = long unsigned int; T = traceAnalyzer::CreateFutureReuseDistribution::create_info; Hash = robin_hood::hash<long unsigned int>; KeyEqual = std::equal_to<long unsigned int>; NodePtr = robin_hood::detail::Table<true, 80, long unsigned int, traceAnalyzer::CreateFutureReuseDistribution::create_info, robin_hood::hash<long unsigned int>, std::equal_to<long unsigned int> >::DataNode<robin_hood::detail::Table<true, 80, long unsigned int, traceAnalyzer::CreateFutureReuseDistribution::create_info, robin_hood::hash<long unsigned int>, std::equal_to<long unsigned int> >, true>*]’
+ 1294 |     Iter(NodePtr valPtr, uint8_t const* infoPtr) noexcept
+      |     ^~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1294:5: note: conversion of argument 1 would be ill-formed:
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1281:5: note: candidate 4: ‘constexpr robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::Iter<IsConst>::Iter() [with bool IsConst = false; bool IsFlat = true; long unsigned int MaxLoadFactor100 = 80; Key = long unsigned int; T = traceAnalyzer::CreateFutureReuseDistribution::create_info; Hash = robin_hood::hash<long unsigned int>; KeyEqual = std::equal_to<long unsigned int>]’
+ 1281 |     Iter() = default;
+      |     ^~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1281:5: note: candidate expects 0 arguments, 2 provided
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1265:9: note: candidate 5: ‘constexpr robin_hood::detail::Table<true, 80, long unsigned int, traceAnalyzer::CreateFutureReuseDistribution::create_info, robin_hood::hash<long unsigned int>, std::equal_to<long unsigned int> >::Iter<false>::Iter(const robin_hood::detail::Table<true, 80, long unsigned int, traceAnalyzer::CreateFutureReuseDistribution::create_info, robin_hood::hash<long unsigned int>, std::equal_to<long unsigned int> >::Iter<false>&)’
+ 1265 |   class Iter {
+      |         ^~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1265:9: note: candidate expects 1 argument, 2 provided
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1265:9: note: candidate 6: ‘constexpr robin_hood::detail::Table<true, 80, long unsigned int, traceAnalyzer::CreateFutureReuseDistribution::create_info, robin_hood::hash<long unsigned int>, std::equal_to<long unsigned int> >::Iter<false>::Iter(robin_hood::detail::Table<true, 80, long unsigned int, traceAnalyzer::CreateFutureReuseDistribution::create_info, robin_hood::hash<long unsigned int>, std::equal_to<long unsigned int> >::Iter<false>&&)’
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1265:9: note: candidate expects 1 argument, 2 provided
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h: In instantiation of ‘bool robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::try_increase_info() [with bool IsFlat = true; long unsigned int MaxLoadFactor100 = 80; Key = long unsigned int; T = traceAnalyzer::CreateFutureReuseDistribution::create_info; Hash = robin_hood::hash<long unsigned int>; KeyEqual = std::equal_to<long unsigned int>]’:
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:2516:49:   required from ‘bool robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::increase_size() [with bool IsFlat = true; long unsigned int MaxLoadFactor100 = 80; Key = long unsigned int; T = traceAnalyzer::CreateFutureReuseDistribution::create_info; Hash = robin_hood::hash<long unsigned int>; KeyEqual = std::equal_to<long unsigned int>]’
+ 2516 |     if (mNumElements < maxNumElementsAllowed && try_increase_info()) {
+      |                                                 ^~~~~~~~~~~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:2446:14:   required from ‘std::pair<long unsigned int, robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::InsertionState> robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::insertKeyPrepareEmptySpot(OtherKey&&) [with OtherKey = const long unsigned int&; bool IsFlat = true; long unsigned int MaxLoadFactor100 = 80; Key = long unsigned int; T = traceAnalyzer::CreateFutureReuseDistribution::create_info; Hash = robin_hood::hash<long unsigned int>; KeyEqual = std::equal_to<long unsigned int>]’
+ 2446 |         if (!increase_size()) {
+      |              ^~~~~~~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:1780:49:   required from ‘typename std::enable_if<(! std::is_void<_Dummy>::value), Q&>::type robin_hood::detail::Table<IsFlat, MaxLoadFactor100, Key, T, Hash, KeyEqual>::operator[](const key_type&) [with Q = traceAnalyzer::CreateFutureReuseDistribution::create_info; bool IsFlat = true; long unsigned int MaxLoadFactor100 = 80; Key = long unsigned int; T = traceAnalyzer::CreateFutureReuseDistribution::create_info; Hash = robin_hood::hash<long unsigned int>; KeyEqual = std::equal_to<long unsigned int>; typename std::enable_if<(! std::is_void<_Dummy>::value), Q&>::type = traceAnalyzer::CreateFutureReuseDistribution::create_info&; key_type = long unsigned int]’
+ 1780 |     auto idxAndState = insertKeyPrepareEmptySpot(key);
+      |                        ~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/createFutureReuseCCDF.cpp:37:33:   required from here
+   37 |     create_info_map_[req->obj_id] = {(int32_t)req->clock_time, -1, 0};
+      |                                 ^
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:2497:35: error: ‘UINT64_C’ was not declared in this scope
+ 2497 |       val = (val >> 1U) & UINT64_C(0x7f7f7f7f7f7f7f7f);
+      |                           ~~~~~~~~^~~~~~~~~~~~~~~~~~~~
+/home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../dataStructure/robin_hood.h:2497:35: note: the macro ‘UINT64_C’ had not yet been defined
+In file included from /usr/lib/gcc/x86_64-linux-gnu/15/include/stdint.h:11,
+                 from /home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../../include/config.h:62,
+                 from /home/rubi/Desktop/ULL/4thSem/OS/Tuning_S3-FIFO_Cache_Eviction-/vendor/libCacheSim/libCacheSim/traceAnalyzer/experimental/../struct.h:6:
+/usr/include/stdint.h:257:11: note: it was later defined here
+  257 | #  define UINT64_C(c)   c ## UL
+      |           ^~~~~~~~
+gmake[3]: *** [libCacheSim/traceAnalyzer/CMakeFiles/traceAnalyzer_lib.dir/build.make:233: libCacheSim/traceAnalyzer/CMakeFiles/traceAnalyzer_lib.dir/experimental/createFutureReuseCCDF.cpp.o] Error 1
+gmake[3]: *** Waiting for unfinished jobs....
+[ 34%] Building C object libCacheSim/cache/CMakeFiles/cache_lib_c.dir/admission/bloomfilter.c.o
+[ 36%] Building C object libCacheSim/cache/CMakeFiles/cache_lib_c.dir/admission/prob.c.o
+[ 37%] Building C object libCacheSim/cache/CMakeFiles/cache_lib_c.dir/admission/size.c.o
+[ 37%] Building C object libCacheSim/cache/CMakeFiles/cache_lib_c.dir/admission/sizeProbabilistic.c.o
+[ 39%] Building C object libCacheSim/cache/CMakeFiles/cache_lib_c.dir/eviction/ARC.c.o
+gmake[2]: *** [CMakeFiles/Makefile2:750: libCacheSim/traceAnalyzer/CMakeFiles/traceAnalyzer_lib.dir/all] Error 2
+gmake[2]: *** Waiting for unfinished jobs....
+[ 39%] Building C object libCacheSim/cache/CMakeFiles/cache_lib_c.dir/eviction/ARCv0.c.o
+[ 40%] Building C object libCacheSim/cache/CMakeFiles/cache_lib_c.dir/eviction/Belady.c.o
+[ 42%] Building C object libCacheSim/cache/CMakeFiles/cache_lib_c.dir/eviction/BeladySize.c.o
+[ 42%] Building C object libCacheSim/cache/CMakeFiles/cache_lib_c.dir/eviction/CAR.c.o
+[ 43%] Building C object libCacheSim/cache/CMakeFiles/cache_lib_c.dir/eviction/Cacheus.c.o
+[ 44%] Building C object libCacheSim/cache/CMakeFiles/cache_lib_c.dir/eviction/Clock.c.o
+[ 44%] Building C object libCacheSim/cache/CMakeFiles/cache_lib_c.dir/eviction/Clock2QPlus.c.o
+[ 46%] Building C object libCacheSim/cache/CMakeFiles/cache_lib_c.dir/eviction/ClockPro.c.o
+[ 46%] Building C object libCacheSim/cache/CMakeFiles/cache_lib_c.dir/eviction/FIFO.c.o
+[ 47%] Building C object libCacheSim/cache/CMakeFiles/cache_lib_c.dir/eviction/Hyperbolic.c.o
+[ 49%] Building C object libCacheSim/cache/CMakeFiles/cache_lib_c.dir/eviction/LeCaR.c.o
+[ 49%] Building C object libCacheSim/cache/CMakeFiles/cache_lib_c.dir/eviction/LeCaRv0.c.o
+[ 52%] Building C object libCacheSim/cache/CMakeFiles/cache_lib_c.dir/eviction/LFU.c.o
+[ 52%] Building C object libCacheSim/cache/CMakeFiles/cache_lib_c.dir/eviction/LFUDA.c.o
+[ 52%] Building C object libCacheSim/cache/CMakeFiles/cache_lib_c.dir/eviction/LIRS.c.o
+[ 53%] Building C object libCacheSim/cache/CMakeFiles/cache_lib_c.dir/eviction/LRU.c.o
+[ 53%] Building C object libCacheSim/cache/CMakeFiles/cache_lib_c.dir/eviction/LRUProb.c.o
+[ 55%] Building C object libCacheSim/cache/CMakeFiles/cache_lib_c.dir/eviction/LRUv0.c.o
+[ 56%] Building C object libCacheSim/cache/CMakeFiles/cache_lib_c.dir/eviction/MQ.c.o
+[ 56%] Building C object libCacheSim/cache/CMakeFiles/cache_lib_c.dir/eviction/MRU.c.o
+[ 57%] Building C object libCacheSim/cache/CMakeFiles/cache_lib_c.dir/eviction/nop.c.o
+[ 57%] Building C object libCacheSim/cache/CMakeFiles/cache_lib_c.dir/eviction/plugin_cache.c.o
+[ 59%] Building C object libCacheSim/cache/CMakeFiles/cache_lib_c.dir/eviction/QDLP.c.o
+[ 60%] Building C object libCacheSim/cache/CMakeFiles/cache_lib_c.dir/eviction/Random.c.o
+[ 60%] Building C object libCacheSim/cache/CMakeFiles/cache_lib_c.dir/eviction/RandomLRU.c.o
+[ 62%] Building C object libCacheSim/cache/CMakeFiles/cache_lib_c.dir/eviction/RandomTwo.c.o
+[ 63%] Building C object libCacheSim/cache/CMakeFiles/cache_lib_c.dir/eviction/S3FIFO.c.o
+[ 63%] Building C object libCacheSim/cache/CMakeFiles/cache_lib_c.dir/eviction/Sieve.c.o
+[ 65%] Building C object libCacheSim/cache/CMakeFiles/cache_lib_c.dir/eviction/Size.c.o
+[ 65%] Building C object libCacheSim/cache/CMakeFiles/cache_lib_c.dir/eviction/SLRU.c.o
+[ 66%] Building C object libCacheSim/cache/CMakeFiles/cache_lib_c.dir/eviction/SLRUv0.c.o
+[ 68%] Building C object libCacheSim/cache/CMakeFiles/cache_lib_c.dir/eviction/TwoQ.c.o
+[ 68%] Building C object libCacheSim/cache/CMakeFiles/cache_lib_c.dir/eviction/WTinyLFU.c.o
+[ 69%] Building C object libCacheSim/cache/CMakeFiles/cache_lib_c.dir/eviction/CR_LFU.c.o
+[ 71%] Building C object libCacheSim/cache/CMakeFiles/cache_lib_c.dir/eviction/SR_LRU.c.o
+[ 71%] Building C object libCacheSim/cache/CMakeFiles/cache_lib_c.dir/eviction/FIFO_Merge.c.o
+[ 72%] Building C object libCacheSim/cache/CMakeFiles/cache_lib_c.dir/eviction/FIFO_Reinsertion.c.o
+[ 72%] Building C object libCacheSim/cache/CMakeFiles/cache_lib_c.dir/eviction/S3FIFOv0.c.o
+[ 73%] Building C object libCacheSim/cache/CMakeFiles/cache_lib_c.dir/eviction/S3FIFOd.c.o
+[ 75%] Building C object libCacheSim/cache/CMakeFiles/cache_lib_c.dir/eviction/other/flashProb.c.o
+[ 75%] Building C object libCacheSim/cache/CMakeFiles/cache_lib_c.dir/eviction/other/S3LRU.c.o
+[ 76%] Building C object libCacheSim/cache/CMakeFiles/cache_lib_c.dir/prefetch/Mithril.c.o
+[ 78%] Building C object libCacheSim/cache/CMakeFiles/cache_lib_c.dir/prefetch/OBL.c.o
+[ 78%] Building C object libCacheSim/cache/CMakeFiles/cache_lib_c.dir/prefetch/PG.c.o
+[ 79%] Building C object libCacheSim/cache/CMakeFiles/cache_lib_c.dir/cacheAlgoRegistry.c.o
+[ 79%] Building C object libCacheSim/cache/CMakeFiles/cache_lib_c.dir/cache.c.o
+[ 81%] Building C object libCacheSim/cache/CMakeFiles/cache_lib_c.dir/plugin.c.o
+[ 81%] Built target cache_lib_c
+gmake[1]: *** [CMakeFiles/Makefile2:858: libCacheSim/bin/cachesim/CMakeFiles/cachesim.dir/rule] Error 2
+gmake: *** [Makefile:312: cachesim] Error 2

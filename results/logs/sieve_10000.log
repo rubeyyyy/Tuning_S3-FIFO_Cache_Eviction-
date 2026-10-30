@@ -1,0 +1,2 @@
+[32m[INFO]  10-29-2026 19:17:40 cli_parser.c:640  (tid=136565490430528): trace path: vendor/libCacheSim/data/cloudPhysicsIO.txt, trace_type PLAIN_TXT_TRACE, ofilepath results/logs/sieve_10000.txt, 1 threads, warmup -1 sec, total 1 algo x 1 size = 1 caches, sieve, ignore object size
+[0mvendor/libCacheSim/data/cloudPhysicsIO.txt Sieve cache size    10000,           113872 req, miss ratio 0.7118, throughput 3.71 MQPS
