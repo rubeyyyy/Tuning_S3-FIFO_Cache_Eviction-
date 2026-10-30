@@ -1,0 +1,14 @@
+{"trace": "cloudPhysicsIO.txt", "total_requests": 113872, "unique_objects": 48974, "one_time_objects": 21049, "one_time_object_fraction": 0.42979948544125457, "one_time_request_fraction": 0.18484789939581284, "mean_requests_per_object": 2.325152121533875, "median_requests_per_object": 2.0, "max_requests_per_object": 1630, "repeat_requests": 64898, "compulsory_miss_ratio": 0.430079387382324, "top_one_percent_object_count": 490, "top_one_percent_request_fraction": 0.15422579738653927, "median_interaccess_gap_requests": 10036.0}
+{"trace": "twitter_cluster52.csv", "total_requests": 1000000, "unique_objects": 143542, "one_time_objects": 64516, "one_time_object_fraction": 0.44945730169567094, "one_time_request_fraction": 0.064516, "mean_requests_per_object": 6.966602109487119, "median_requests_per_object": 2.0, "max_requests_per_object": 59080, "repeat_requests": 856458, "compulsory_miss_ratio": 0.143542, "top_one_percent_object_count": 1436, "top_one_percent_request_fraction": 0.570119, "median_interaccess_gap_requests": 101.0}
+fifo    1000 objects: 0.3858
+fifo    5000 objects: 0.2919
+fifo   10000 objects: 0.2500
+lru     1000 objects: 0.3587
+lru     5000 objects: 0.2668
+lru    10000 objects: 0.2249
+sieve   1000 objects: 0.3451
+sieve   5000 objects: 0.2494
+sieve  10000 objects: 0.2143
+s3fifo  1000 objects: 0.3277
+s3fifo  5000 objects: 0.2322
+s3fifo 10000 objects: 0.2002

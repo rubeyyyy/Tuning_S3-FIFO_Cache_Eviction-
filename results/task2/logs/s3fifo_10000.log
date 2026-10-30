@@ -1,0 +1,3 @@
+[32m[INFO]  10-29-2026 19:38:30    csv.c:107  (tid=128529025741376): detect csv delimiter ,
+[0m[32m[INFO]  10-29-2026 19:38:30 cli_parser.c:640  (tid=128529025741376): trace path: vendor/libCacheSim/data/twitter_cluster52.csv, trace_type CSV_TRACE, ofilepath results/task2/logs/s3fifo_10000.txt, 1 threads, warmup -1 sec, total 1 algo x 1 size = 1 caches, s3fifo, trace-type-params: time-col=1,obj-id-col=2,obj-size-col=3,obj-id-is-num=true,has-header=true, ignore object size
+[0mvendor/libCacheSim/data/twitter_cluster52.csv S3FIFO-0.1000-2 cache size    10000,          1000000 req, miss ratio 0.2002, throughput 2.20 MQPS

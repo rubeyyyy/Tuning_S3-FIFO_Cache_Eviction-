@@ -1,0 +1,13 @@
+trace,algorithm,cache_size_objects,requests,miss_ratio,raw_output
+twitter_cluster52.csv,fifo,1000,1000000,0.3858,results/task2/logs/fifo_1000.txt
+twitter_cluster52.csv,fifo,5000,1000000,0.2919,results/task2/logs/fifo_5000.txt
+twitter_cluster52.csv,fifo,10000,1000000,0.2500,results/task2/logs/fifo_10000.txt
+twitter_cluster52.csv,lru,1000,1000000,0.3587,results/task2/logs/lru_1000.txt
+twitter_cluster52.csv,lru,5000,1000000,0.2668,results/task2/logs/lru_5000.txt
+twitter_cluster52.csv,lru,10000,1000000,0.2249,results/task2/logs/lru_10000.txt
+twitter_cluster52.csv,sieve,1000,1000000,0.3451,results/task2/logs/sieve_1000.txt
+twitter_cluster52.csv,sieve,5000,1000000,0.2494,results/task2/logs/sieve_5000.txt
+twitter_cluster52.csv,sieve,10000,1000000,0.2143,results/task2/logs/sieve_10000.txt
+twitter_cluster52.csv,s3fifo,1000,1000000,0.3277,results/task2/logs/s3fifo_1000.txt
+twitter_cluster52.csv,s3fifo,5000,1000000,0.2322,results/task2/logs/s3fifo_5000.txt
+twitter_cluster52.csv,s3fifo,10000,1000000,0.2002,results/task2/logs/s3fifo_10000.txt

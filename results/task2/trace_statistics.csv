@@ -1,0 +1,3 @@
+trace,total_requests,unique_objects,one_time_objects,one_time_object_fraction,one_time_request_fraction,mean_requests_per_object,median_requests_per_object,max_requests_per_object,repeat_requests,compulsory_miss_ratio,top_one_percent_object_count,top_one_percent_request_fraction,median_interaccess_gap_requests
+cloudPhysicsIO.txt,113872,48974,21049,0.42979948544125457,0.18484789939581284,2.325152121533875,2.0,1630,64898,0.430079387382324,490,0.15422579738653927,10036.0
+twitter_cluster52.csv,1000000,143542,64516,0.44945730169567094,0.064516,6.966602109487119,2.0,59080,856458,0.143542,1436,0.570119,101.0

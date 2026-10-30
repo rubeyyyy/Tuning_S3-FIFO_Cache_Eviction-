@@ -1,0 +1,1 @@
+vendor/libCacheSim/data/twitter_cluster52.csv LRU cache size     5000,          1000000 req, miss ratio 0.2668, throughput 2.61 MQPS

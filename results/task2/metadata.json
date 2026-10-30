@@ -1,0 +1,57 @@
+{
+  "measured_at_utc": "2026-10-30T00:38:30.789078+00:00",
+  "upstream_commit": "40fb623af3793fbe5736bda9a35488d0f366ef6e",
+  "simulator_sha256": "e5dd11771aa6aa7eb5c43ce39d5d2f4c5c20639a4158bba4e9122f1f1cb7bb33",
+  "trace_sources": {
+    "cloudPhysicsIO.txt": {
+      "source_url": "https://raw.githubusercontent.com/1a1a11a/libCacheSim/40fb623af3793fbe5736bda9a35488d0f366ef6e/data/cloudPhysicsIO.txt",
+      "local_path": "vendor/libCacheSim/data/cloudPhysicsIO.txt",
+      "sha256": "1b48334535801ae862d53e9d7623467186eeb93054462b38021fef273cab0439",
+      "bytes": 1007325
+    },
+    "twitter_cluster52.csv": {
+      "source_url": "https://raw.githubusercontent.com/1a1a11a/libCacheSim/40fb623af3793fbe5736bda9a35488d0f366ef6e/data/twitter_cluster52.csv",
+      "local_path": "vendor/libCacheSim/data/twitter_cluster52.csv",
+      "sha256": "cf4d37d041569bb30c3bc32b7b54dd40b40438c53ee72e4919acf810063d189a",
+      "bytes": 37690270
+    }
+  },
+  "acquisition": "Both files obtained unmodified in the official pinned Git clone; no separate download required",
+  "twitter_trace_format": "CSV: time, numeric uint64 object ID, size, next_access_vtime; header present",
+  "csv_params": "time-col=1,obj-id-col=2,obj-size-col=3,obj-id-is-num=true,has-header=true",
+  "capacity_unit": "objects",
+  "cache_sizes_objects": [
+    1000,
+    5000,
+    10000
+  ],
+  "ignore_object_size": true,
+  "warmup": false,
+  "metadata_charge": false,
+  "threads": 1,
+  "eviction_parameters": "upstream defaults; no eviction parameters passed",
+  "miss_ratio_decimal_places": 4,
+  "python": "3.14.4",
+  "original_baseline_csv_sha256": "c866bb024ce0053083096d2baa6e7b50f95dcb13419914e9c6b4ab97bec6c914",
+  "original_metadata_sha256": "7f881cb6fbd0f0106d2eeaa07de7ad637ec72c0530f28616fa43baeb79250e0d",
+  "commands": [
+    "build/bin/cachesim vendor/libCacheSim/data/twitter_cluster52.csv csv fifo 1000 -t time-col=1,obj-id-col=2,obj-size-col=3,obj-id-is-num=true,has-header=true --ignore-obj-size 1 --num-thread 1 --warmup-sec -1 --consider-obj-metadata 0 --print-head-req 0 --output results/task2/logs/fifo_1000.txt",
+    "build/bin/cachesim vendor/libCacheSim/data/twitter_cluster52.csv csv fifo 5000 -t time-col=1,obj-id-col=2,obj-size-col=3,obj-id-is-num=true,has-header=true --ignore-obj-size 1 --num-thread 1 --warmup-sec -1 --consider-obj-metadata 0 --print-head-req 0 --output results/task2/logs/fifo_5000.txt",
+    "build/bin/cachesim vendor/libCacheSim/data/twitter_cluster52.csv csv fifo 10000 -t time-col=1,obj-id-col=2,obj-size-col=3,obj-id-is-num=true,has-header=true --ignore-obj-size 1 --num-thread 1 --warmup-sec -1 --consider-obj-metadata 0 --print-head-req 0 --output results/task2/logs/fifo_10000.txt",
+    "build/bin/cachesim vendor/libCacheSim/data/twitter_cluster52.csv csv lru 1000 -t time-col=1,obj-id-col=2,obj-size-col=3,obj-id-is-num=true,has-header=true --ignore-obj-size 1 --num-thread 1 --warmup-sec -1 --consider-obj-metadata 0 --print-head-req 0 --output results/task2/logs/lru_1000.txt",
+    "build/bin/cachesim vendor/libCacheSim/data/twitter_cluster52.csv csv lru 5000 -t time-col=1,obj-id-col=2,obj-size-col=3,obj-id-is-num=true,has-header=true --ignore-obj-size 1 --num-thread 1 --warmup-sec -1 --consider-obj-metadata 0 --print-head-req 0 --output results/task2/logs/lru_5000.txt",
+    "build/bin/cachesim vendor/libCacheSim/data/twitter_cluster52.csv csv lru 10000 -t time-col=1,obj-id-col=2,obj-size-col=3,obj-id-is-num=true,has-header=true --ignore-obj-size 1 --num-thread 1 --warmup-sec -1 --consider-obj-metadata 0 --print-head-req 0 --output results/task2/logs/lru_10000.txt",
+    "build/bin/cachesim vendor/libCacheSim/data/twitter_cluster52.csv csv sieve 1000 -t time-col=1,obj-id-col=2,obj-size-col=3,obj-id-is-num=true,has-header=true --ignore-obj-size 1 --num-thread 1 --warmup-sec -1 --consider-obj-metadata 0 --print-head-req 0 --output results/task2/logs/sieve_1000.txt",
+    "build/bin/cachesim vendor/libCacheSim/data/twitter_cluster52.csv csv sieve 5000 -t time-col=1,obj-id-col=2,obj-size-col=3,obj-id-is-num=true,has-header=true --ignore-obj-size 1 --num-thread 1 --warmup-sec -1 --consider-obj-metadata 0 --print-head-req 0 --output results/task2/logs/sieve_5000.txt",
+    "build/bin/cachesim vendor/libCacheSim/data/twitter_cluster52.csv csv sieve 10000 -t time-col=1,obj-id-col=2,obj-size-col=3,obj-id-is-num=true,has-header=true --ignore-obj-size 1 --num-thread 1 --warmup-sec -1 --consider-obj-metadata 0 --print-head-req 0 --output results/task2/logs/sieve_10000.txt",
+    "build/bin/cachesim vendor/libCacheSim/data/twitter_cluster52.csv csv s3fifo 1000 -t time-col=1,obj-id-col=2,obj-size-col=3,obj-id-is-num=true,has-header=true --ignore-obj-size 1 --num-thread 1 --warmup-sec -1 --consider-obj-metadata 0 --print-head-req 0 --output results/task2/logs/s3fifo_1000.txt",
+    "build/bin/cachesim vendor/libCacheSim/data/twitter_cluster52.csv csv s3fifo 5000 -t time-col=1,obj-id-col=2,obj-size-col=3,obj-id-is-num=true,has-header=true --ignore-obj-size 1 --num-thread 1 --warmup-sec -1 --consider-obj-metadata 0 --print-head-req 0 --output results/task2/logs/s3fifo_5000.txt",
+    "build/bin/cachesim vendor/libCacheSim/data/twitter_cluster52.csv csv s3fifo 10000 -t time-col=1,obj-id-col=2,obj-size-col=3,obj-id-is-num=true,has-header=true --ignore-obj-size 1 --num-thread 1 --warmup-sec -1 --consider-obj-metadata 0 --print-head-req 0 --output results/task2/logs/s3fifo_10000.txt"
+  ],
+  "analysis_definitions": {
+    "one_time_object": "Object with exactly one request within the supplied sample",
+    "reuse_frequency": "For an object with k total requests, reuses = k-1; exact histogram contains both",
+    "interaccess_gap": "Request-index difference between consecutive accesses to the same ID; not distinct-object stack distance",
+    "top_one_percent": "Most frequently requested ceil(0.01 * unique_objects) IDs, divided by all requests"
+  }
+}

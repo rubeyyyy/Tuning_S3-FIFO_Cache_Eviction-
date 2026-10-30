@@ -1,0 +1,18 @@
+{
+  "checks": [
+    "12 new simulator measurements; 24 combined with Task 1",
+    "CSV ratios match raw simulator files and captured stdout",
+    "Full request count verified for each trace",
+    "All five data CSVs identical across two complete Task 2 runs",
+    "Exact and bucketed frequency histograms reconcile with request and object totals in analyzer",
+    "Upstream source and original Task 1 experiment files unchanged",
+    "Both PNG plots generated and visually inspected"
+  ],
+  "csv_sha256": {
+    "twitter_baseline.csv": "7d83653d7161fe994049f16e8985dd4ecded2f2195b21068e03a49b2149a978f",
+    "comparison.csv": "3983f13e9b61e8640c1a4562ccd022c2581eb260ad221af8297467f71085805c",
+    "trace_statistics.csv": "36d3da7d473d21037d6de8d79ca1f9c3cc5d606b27ec00b4c33dcf62f43c2b81",
+    "reuse_frequency.csv": "aeff5567c80852153d97b34dd9625066eaaca9cd27581f727e31eaaddcd64341",
+    "frequency_buckets.csv": "19865f119565261319d3fc7f9030c983e3f9354361a4d816ef3849235e730f67"
+  }
+}

@@ -1,0 +1,1 @@
+vendor/libCacheSim/data/twitter_cluster52.csv FIFO cache size    10000,          1000000 req, miss ratio 0.2500, throughput 2.64 MQPS

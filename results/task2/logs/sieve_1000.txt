@@ -1,0 +1,1 @@
+vendor/libCacheSim/data/twitter_cluster52.csv Sieve cache size     1000,          1000000 req, miss ratio 0.3451, throughput 2.67 MQPS

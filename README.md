@@ -1,5 +1,8 @@
 # Tuning S3-FIFO Cache Eviction — Task 1 baseline
 
+The additional public trace, workload analysis, and Task 2 results are documented
+in [TASK2.md](TASK2.md). The original Task 1 baseline below is preserved.
+
 Task 1 is complete: build the existing libCacheSim simulator and compare FIFO,
 LRU, SIEVE, and default S3-FIFO on one bundled sample at three cache capacities.
 No eviction policy source was changed and no S3-FIFO tuning was performed.
